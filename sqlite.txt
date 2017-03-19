@@ -1,0 +1,60 @@
+dbicdump -o dump_directory=./lib \
+         -o components='["InflateColumn::DateTime"]' \
+         -o debug=1 \
+         Net::Cisco::ISE::Mock::Schema \
+         dbi:SQLite:ise.db
+
+drop table users;
+
+create table users
+( id integer,
+  description text,
+  name text,
+  identitygroupname text,
+  changepassword text,
+  enablepassword text,
+  enabled integer,
+  password text,
+  passwordneverexpires integer,
+  passwordtype text,
+  dateexceeds text,
+  dateexceedsenabled integer,
+  created text,
+  lastmodified text
+);
+
+drop table identitygroups;
+
+create table identitygroups
+( id integer,
+  description text,
+  name text
+);
+
+insert into identitygroups(id, description, name) values  ('1','Engineers','All Groups:Engineers');
+insert into identitygroups(id, description, name) values  ('2','Technicians','All Groups:Technicians');
+insert into identitygroups(id, description, name) values  ('3','Users','All Groups:Users');
+
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype, created, lastmodified)
+values(77, 'Foo','Secret123','Foo User','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2018','1','1','Internal','Jan 01 2015 00:00:00', 'Jan 01 2015 00:00:00');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype, created, lastmodified)
+values(78, 'Bar','Secret123','Bar User','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2018','1','1','Internal','Jan 01 2015 00:00:00', 'Jan 01 2015 00:00:00');
+
+delete from users;
+
+
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(1, 'echo','Secret123','Eliza Dushku','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(2, 'sierra','Secret123','Dichen Lachman','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(3, 'victor','Secret123','Enver Gjokaj','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(4, 'whiskey','Secret123','Amy Acker','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(5, 'alpha','Secret123','Alan Tudyk','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(6, 'tango','Secret123','-','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(7, 'yankee','Secret123','-','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(8, 'november','Secret123','-','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(9, 'india','Secret123','-','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(10, 'lima','Secret123','-','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(11, 'oscar','Secret123','-','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(12, 'papa','Secret123','-','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(13, 'uniform','Secret123','-','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(14, 'x-Ray','Secret123','-','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');
+insert into users(id, name, password, description, identitygroupname, enabled,enablepassword, dateexceedsenabled, dateexceeds, changepassword, passwordneverexpires, passwordtype) values(15, 'zulu','Secret123','-','All Groups:Engineers','1', 'EnabledSecret', '1', '01/01/2017','1','1','Internal');

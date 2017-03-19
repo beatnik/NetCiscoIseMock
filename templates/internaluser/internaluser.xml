@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+2.<ns4:internaluser description="description" id="id" name="name" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
+3.    <changePassword>true</changePassword>
+4.    <customAttributes>
+5.        <entry>
+6.            <key>key1</key>
+7.            <value>value1</value>
+8.        </entry>
+9.        <entry>
+10.            <key>key2</key>
+11.            <value>value3</value>
+12.        </entry>
+13.    </customAttributes>
+14.    <email>email@domain.com</email>
+15.    <enablePassword>enablePassword</enablePassword>
+16.    <enabled>true</enabled>
+17.    <expiryDate>2016-12-11</expiryDate>
+18.    <expiryDateEnabled>false</expiryDateEnabled>
+19.    <firstName>firstName</firstName>
+20.    <identityGroups>identityGroups</identityGroups>
+21.    <lastName>lastName</lastName>
+22.    <password>password</password>
+23.    <passwordIDStore>Internal Users</passwordIDStore>
+24.</ns4:internaluser>

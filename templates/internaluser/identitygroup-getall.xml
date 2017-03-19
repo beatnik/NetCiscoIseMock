@@ -1,0 +1,21 @@
+Method:
+GET 
+
+URI:
+https://10.132.96.72:9060/ers/config/identitygroup 
+
+HTTP 'Accept' header:
+application/vnd.com.cisco.ise.identity.identitygroup.1.0+xml 
+
+HTTP 'Accept-Search-Result' Header:
+application/vnd.com.cisco.ise.ers.searchresult.2.0+xml 
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:searchResult total="2" xmlns:ns5="ers.ise.cisco.com" xmlns:ers-v2="ers-v2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="v2.ers.ise.cisco.com">
+    <ns3:nextPage rel="next" href="link-to-next-page" type="application/xml"/>
+    <ns3:previousPage rel="previous" href="link-to-previous-page" type="application/xml"/>
+    <ns3:resources>
+        <ns5:resource description="description1" id="id1" name="name1"/>
+        <ns5:resource description="description2" id="id2" name="name2"/>
+    </ns3:resources>
+</ns3:searchResult>

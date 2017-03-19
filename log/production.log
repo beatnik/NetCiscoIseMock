@@ -1,0 +1,20 @@
+[Fri Jan 27 14:10:19 2017] [info] Listening at "http://*:8080"
+[Fri Jan 27 14:10:19 2017] [info] Manager 5383 started
+[Fri Jan 27 14:10:19 2017] [info] Creating process id file "/home/hendrik/NetCiscoAcsMock/script/hypnotoad.pid"
+[Fri Jan 27 14:14:26 2017] [info] Manager 5383 stopped
+[Thu Feb  9 00:22:58 2017] [info] Listening at "http://*:8080"
+[Thu Feb  9 00:22:58 2017] [info] Manager 5081 started
+[Thu Feb  9 00:22:58 2017] [info] Creating process id file "/home/hendrik/NetCiscoAcsMock/script/hypnotoad.pid"
+[Thu Feb  9 00:31:29 2017] [info] Manager 5081 stopped
+[Thu Feb  9 00:31:53 2017] [info] Listening at "http://*:8080"
+[Thu Feb  9 00:31:53 2017] [info] Manager 5768 started
+[Thu Feb  9 00:31:53 2017] [info] Creating process id file "/home/hendrik/NetCiscoAcsMock/script/hypnotoad.pid"
+[Thu Feb  9 00:32:40 2017] [info] Manager 5768 stopped
+[Thu Feb  9 00:32:42 2017] [info] Listening at "http://*:8080"
+[Thu Feb  9 00:32:42 2017] [info] Manager 5795 started
+[Thu Feb  9 00:32:42 2017] [info] Creating process id file "/home/hendrik/NetCiscoAcsMock/script/hypnotoad.pid"
+[Thu Feb  9 00:33:01 2017] [info] Manager 5795 stopped
+[Thu Feb  9 00:33:03 2017] [info] Listening at "http://*:8080"
+[Thu Feb  9 00:33:03 2017] [info] Manager 5810 started
+[Thu Feb  9 00:33:03 2017] [info] Creating process id file "/home/hendrik/NetCiscoAcsMock/script/hypnotoad.pid"
+[Thu Feb  9 00:57:56 2017] [info] Manager 5810 stopped

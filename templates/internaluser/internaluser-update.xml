@@ -1,0 +1,37 @@
+Method:
+PUT 
+
+URI:
+https://10.132.96.72:9060/ers/config/internaluser/{id} 
+
+HTTP 'Content-Type' header:
+application/vnd.com.cisco.ise.identity.internaluser.1.2+xml; charset=utf-8 
+
+HTTP 'Accept' header:
+application/vnd.com.cisco.ise.identity.internaluser.1.2+xml 
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns4:internaluser description="description" id="id" name="name" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
+    <changePassword>true</changePassword>
+    <customAttributes>
+        <entry>
+            <key>key1</key>
+            <value>value1</value>
+        </entry>
+        <entry>
+            <key>key2</key>
+            <value>value3</value>
+        </entry>
+    </customAttributes>
+    <email>email@domain.com</email>
+    <enablePassword>enablePassword</enablePassword>
+    <enabled>true</enabled>
+    <expiryDate>2016-12-11</expiryDate>
+    <expiryDateEnabled>false</expiryDateEnabled>
+    <firstName>firstName</firstName>
+    <identityGroups>identityGroups</identityGroups>
+    <lastName>lastName</lastName>
+    <password>password</password>
+    <passwordIDStore>Internal Users</passwordIDStore>
+</ns4:internaluser>

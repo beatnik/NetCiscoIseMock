@@ -1,0 +1,3 @@
+<id><%= $identitygroup->id %></id>
+<description><%= $identitygroup->description %></description>
+<name><%= $identitygroup->name %></name>

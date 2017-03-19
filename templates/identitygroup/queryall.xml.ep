@@ -1,0 +1,7 @@
+% foreach my $identitygroup (sort keys %{$identitygroups}) {                
+<IdentityGroup>
+<id><%= $identitygroups->{$identitygroup}->{id} %></id>
+<description><%= $identitygroups->{$identitygroup}->{description} %></description>
+<name><%= $identitygroups->{$identitygroup}->{name} %></name>
+</IdentityGroup>
+% }
