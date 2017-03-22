@@ -1,4 +1,4 @@
 <ns3:searchResult total="4" xmlns:ns5="ers.ise.cisco.com" xmlns:ers-v2="ers-v2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="v2.ers.ise.cisco.com">
-<ns3:resources>
-<%= content %></ns3:resources>
+<resources>
+<%= content %></resources>
 </ns3:searchResult>

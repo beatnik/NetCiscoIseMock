@@ -5273,3 +5273,2148 @@
 [Sun Mar 19 23:20:23 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
 [Sun Mar 19 23:20:23 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
 [Sun Mar 19 23:20:23 2017] [debug] 200 OK (0.00076s, 1315.789/s)
+[Mon Mar 20 22:05:14 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 22:05:14 2017] [debug] Class "Net::Cisco::ISE::Mock::Controller::IdentityGroup" is not a controller
+[Mon Mar 20 22:05:14 2017] [debug] Template "identity_group/query.html.ep" not found
+[Mon Mar 20 22:05:14 2017] [debug] Template "not_found.development.html.ep" not found
+[Mon Mar 20 22:05:14 2017] [debug] Template "not_found.html.ep" not found
+[Mon Mar 20 22:05:14 2017] [debug] Rendering template "mojo/debug.html.ep"
+[Mon Mar 20 22:05:14 2017] [debug] Rendering template "mojo/menubar.html.ep"
+[Mon Mar 20 22:05:14 2017] [debug] Your secret passphrase needs to be changed
+[Mon Mar 20 22:05:14 2017] [debug] 404 Not Found (0.061028s, 16.386/s)
+[Mon Mar 20 22:06:20 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 22:06:20 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 22:06:20 2017] [debug] Rendering template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 22:06:20 2017] [debug] Rendering template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 22:06:20 2017] [debug] 200 OK (0.008124s, 123.092/s)
+[Mon Mar 20 22:19:24 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 22:19:24 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 22:19:24 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 22:19:24 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 22:19:24 2017] [debug] 200 OK (0.000565s, 1769.912/s)
+[Mon Mar 20 22:19:41 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 22:19:41 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 22:19:41 2017] [debug] Rendering template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 22:19:41 2017] [debug] Rendering template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 22:19:41 2017] [debug] 200 OK (0.00819s, 122.100/s)
+[Mon Mar 20 22:24:10 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 22:24:10 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 22:24:10 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 22:24:10 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 22:24:10 2017] [debug] 200 OK (0.000596s, 1677.852/s)
+[Mon Mar 20 22:35:57 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 22:35:57 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 22:35:57 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 22:35:57 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 22:35:57 2017] [debug] 200 OK (0.000634s, 1577.287/s)
+[Mon Mar 20 22:42:54 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 22:42:54 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 22:42:54 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 22:42:54 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 22:42:54 2017] [debug] 200 OK (0.000696s, 1436.782/s)
+[Mon Mar 20 22:45:23 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 22:45:23 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 22:45:23 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 22:45:23 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 22:45:23 2017] [debug] 200 OK (0.000689s, 1451.379/s)
+[Mon Mar 20 22:45:27 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 22:45:27 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 22:45:27 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 22:45:27 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 22:45:27 2017] [debug] 200 OK (0.000671s, 1490.313/s)
+[Mon Mar 20 23:06:47 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:06:47 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:06:47 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:06:47 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:06:47 2017] [debug] 200 OK (0.000686s, 1457.726/s)
+[Mon Mar 20 23:07:37 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:07:37 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:07:37 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:07:37 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:07:37 2017] [debug] 200 OK (0.000702s, 1424.501/s)
+[Mon Mar 20 23:08:38 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:08:38 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:08:38 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:08:38 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:08:38 2017] [debug] 200 OK (0.000604s, 1655.629/s)
+[Mon Mar 20 23:14:11 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:14:11 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:14:11 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:14:11 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:14:11 2017] [debug] 200 OK (0.000631s, 1584.786/s)
+[Mon Mar 20 23:15:33 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:15:33 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:15:33 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:15:33 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:15:33 2017] [debug] 200 OK (0.000661s, 1512.859/s)
+[Mon Mar 20 23:19:29 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:19:29 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:19:29 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:19:29 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:19:29 2017] [debug] 200 OK (0.000684s, 1461.988/s)
+[Mon Mar 20 23:21:13 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:21:13 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:21:13 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:21:13 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:21:13 2017] [debug] 200 OK (0.000679s, 1472.754/s)
+[Mon Mar 20 23:22:53 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:22:53 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:22:53 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:22:53 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:22:53 2017] [debug] 200 OK (0.000722s, 1385.042/s)
+[Mon Mar 20 23:25:17 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:25:17 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:25:17 2017] [debug] Rendering template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:25:17 2017] [debug] Rendering template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:25:17 2017] [debug] 200 OK (0.008625s, 115.942/s)
+[Mon Mar 20 23:32:40 2017] [debug] GET "/accounts/"
+[Mon Mar 20 23:32:40 2017] [debug] Template "not_found.development.html.ep" not found
+[Mon Mar 20 23:32:40 2017] [debug] Template "not_found.html.ep" not found
+[Mon Mar 20 23:32:40 2017] [debug] Rendering template "mojo/debug.html.ep"
+[Mon Mar 20 23:32:40 2017] [debug] Rendering template "mojo/menubar.html.ep"
+[Mon Mar 20 23:32:40 2017] [debug] Your secret passphrase needs to be changed
+[Mon Mar 20 23:32:40 2017] [debug] 404 Not Found (0.019183s, 52.129/s)
+[Mon Mar 20 23:48:34 2017] [debug] GET "/"
+[Mon Mar 20 23:48:34 2017] [debug] Template "not_found.development.html.ep" not found
+[Mon Mar 20 23:48:34 2017] [debug] Template "not_found.html.ep" not found
+[Mon Mar 20 23:48:34 2017] [debug] Rendering template "mojo/debug.html.ep"
+[Mon Mar 20 23:48:34 2017] [debug] Rendering template "mojo/menubar.html.ep"
+[Mon Mar 20 23:48:34 2017] [debug] Your secret passphrase needs to be changed
+[Mon Mar 20 23:48:34 2017] [debug] 404 Not Found (0.019312s, 51.781/s)
+[Mon Mar 20 23:48:57 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:48:57 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:48:57 2017] [debug] Rendering template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:48:57 2017] [debug] Rendering template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:48:57 2017] [debug] 200 OK (0.007319s, 136.631/s)
+[Mon Mar 20 23:50:33 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:50:33 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:50:33 2017] [debug] Rendering template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:50:33 2017] [debug] Rendering template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:50:33 2017] [debug] 200 OK (0.008379s, 119.346/s)
+[Mon Mar 20 23:53:40 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:53:40 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:53:40 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:53:40 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:53:40 2017] [debug] 200 OK (0.000701s, 1426.534/s)
+[Mon Mar 20 23:54:41 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:54:41 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:54:41 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:54:41 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:54:41 2017] [debug] 200 OK (0.000676s, 1479.290/s)
+[Mon Mar 20 23:54:41 2017] [debug] GET "/ers/config/internaluser/"
+[Mon Mar 20 23:54:41 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Mon Mar 20 23:54:41 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Mon Mar 20 23:54:41 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Mon Mar 20 23:54:41 2017] [debug] 200 OK (0.002507s, 398.883/s)
+[Mon Mar 20 23:56:51 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:56:51 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:56:51 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:56:51 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:56:51 2017] [debug] 200 OK (0.000642s, 1557.632/s)
+[Mon Mar 20 23:56:51 2017] [debug] GET "/ers/config/internaluser/"
+[Mon Mar 20 23:56:51 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Mon Mar 20 23:56:51 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Mon Mar 20 23:56:51 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Mon Mar 20 23:56:51 2017] [debug] 200 OK (0.000639s, 1564.945/s)
+[Mon Mar 20 23:56:56 2017] [debug] GET "/ers/config/identitygroup/"
+[Mon Mar 20 23:56:56 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::IdentityGroup" and action "query"
+[Mon Mar 20 23:56:56 2017] [debug] Rendering cached template "identitygroup/queryall.xml.ep"
+[Mon Mar 20 23:56:56 2017] [debug] Rendering cached template "layouts/identitygroupall.xml.ep"
+[Mon Mar 20 23:56:56 2017] [debug] 200 OK (0.000637s, 1569.859/s)
+[Mon Mar 20 23:56:56 2017] [debug] GET "/ers/config/internaluser/"
+[Mon Mar 20 23:56:56 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Mon Mar 20 23:56:56 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Mon Mar 20 23:56:56 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Mon Mar 20 23:56:56 2017] [debug] 200 OK (0.000576s, 1736.111/s)
+[Mon Mar 20 23:59:16 2017] [debug] GET "/ers/config/internaluser/"
+[Mon Mar 20 23:59:16 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Mon Mar 20 23:59:16 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Mon Mar 20 23:59:16 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Mon Mar 20 23:59:16 2017] [debug] 200 OK (0.000584s, 1712.329/s)
+[Mon Mar 20 23:59:54 2017] [debug] GET "/ers/config/internaluser/"
+[Mon Mar 20 23:59:54 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Mon Mar 20 23:59:54 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Mon Mar 20 23:59:54 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Mon Mar 20 23:59:54 2017] [debug] 200 OK (0.000643s, 1555.210/s)
+[Tue Mar 21 00:13:08 2017] [debug] GET "/ers/config/internaluser/"
+[Tue Mar 21 00:13:08 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Tue Mar 21 00:13:08 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Tue Mar 21 00:13:08 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Tue Mar 21 00:13:08 2017] [debug] 200 OK (0.008028s, 124.564/s)
+[Tue Mar 21 00:13:46 2017] [debug] GET "/ers/config/internaluser/"
+[Tue Mar 21 00:13:46 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Tue Mar 21 00:13:46 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Tue Mar 21 00:13:46 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Tue Mar 21 00:13:46 2017] [debug] 200 OK (0.008944s, 111.807/s)
+[Wed Mar 22 00:44:51 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 00:44:51 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 00:44:51 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 00:44:51 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 00:44:51 2017] [debug] 200 OK (0.03028s, 33.025/s)
+[Wed Mar 22 00:57:16 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 00:57:16 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 00:57:16 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 00:57:16 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 00:57:16 2017] [debug] 200 OK (0.000709s, 1410.437/s)
+[Wed Mar 22 00:57:47 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 00:57:47 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 00:57:47 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 00:57:47 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 00:57:47 2017] [debug] 200 OK (0.000676s, 1479.290/s)
+[Wed Mar 22 01:06:54 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:06:54 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:06:54 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:06:54 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:06:54 2017] [debug] 200 OK (0.007876s, 126.968/s)
+[Wed Mar 22 01:07:53 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:07:53 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:07:53 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:07:53 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:07:53 2017] [debug] 200 OK (0.000658s, 1519.757/s)
+[Wed Mar 22 01:09:03 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:09:03 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:09:03 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:09:03 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:09:03 2017] [debug] 200 OK (0.007979s, 125.329/s)
+[Wed Mar 22 01:09:17 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:09:17 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:09:17 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:09:17 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:09:17 2017] [debug] 200 OK (0.000666s, 1501.502/s)
+[Wed Mar 22 01:09:21 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:09:21 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:09:21 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:09:21 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:09:21 2017] [debug] 200 OK (0.000683s, 1464.129/s)
+[Wed Mar 22 01:09:54 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:09:54 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:09:54 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:09:54 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:09:54 2017] [debug] 200 OK (0.000689s, 1451.379/s)
+[Wed Mar 22 01:11:32 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:11:32 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:11:32 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:11:32 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:11:32 2017] [debug] 200 OK (0.00768s, 130.208/s)
+[Wed Mar 22 01:12:45 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:12:45 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:12:45 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:12:45 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:12:45 2017] [debug] 200 OK (0.000688s, 1453.488/s)
+[Wed Mar 22 01:12:48 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:12:48 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:12:48 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:12:48 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:12:48 2017] [debug] 200 OK (0.000718s, 1392.758/s)
+[Wed Mar 22 01:28:54 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:28:54 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:28:54 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:28:54 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:28:54 2017] [debug] 200 OK (0.000682s, 1466.276/s)
+[Wed Mar 22 01:29:31 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:29:31 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:29:31 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:29:31 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:29:31 2017] [debug] 200 OK (0.000633s, 1579.779/s)
+[Wed Mar 22 01:29:39 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:29:39 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:29:39 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:29:39 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:29:39 2017] [debug] 200 OK (0.000622s, 1607.717/s)
+[Wed Mar 22 01:29:47 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 01:29:47 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 01:29:47 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 01:29:47 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 01:29:47 2017] [debug] 200 OK (0.000972s, 1028.807/s)
+[Wed Mar 22 16:42:10 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 16:42:10 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 16:42:10 2017] [error] Can't locate object method "name" via package "Net::Cisco::ISE::Mock::Schema::Result::Internaluser" at /home/hendrik/NetCiscoIseMock/script/../lib/Net/Cisco/ISE/Mock/Controller/InternalUser.pm line 18.
+
+[Wed Mar 22 16:42:10 2017] [debug] Template "exception.development.html.ep" not found
+[Wed Mar 22 16:42:10 2017] [debug] Template "exception.html.ep" not found
+[Wed Mar 22 16:42:10 2017] [debug] Rendering template "mojo/debug.html.ep"
+[Wed Mar 22 16:42:10 2017] [debug] Rendering template "mojo/menubar.html.ep"
+[Wed Mar 22 16:42:10 2017] [debug] Your secret passphrase needs to be changed
+[Wed Mar 22 16:42:10 2017] [debug] 500 Internal Server Error (0.165877s, 6.029/s)
+[Wed Mar 22 16:45:49 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 16:45:49 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 16:45:49 2017] [error] Can't locate object method "name" via package "Net::Cisco::ISE::Mock::Schema::Result::Internaluser" at /home/hendrik/NetCiscoIseMock/script/../lib/Net/Cisco/ISE/Mock/Controller/InternalUser.pm line 18.
+
+[Wed Mar 22 16:45:49 2017] [debug] Template "exception.development.html.ep" not found
+[Wed Mar 22 16:45:49 2017] [debug] Template "exception.html.ep" not found
+[Wed Mar 22 16:45:49 2017] [debug] Rendering cached template "mojo/debug.html.ep"
+[Wed Mar 22 16:45:49 2017] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Wed Mar 22 16:45:49 2017] [debug] 500 Internal Server Error (0.006027s, 165.920/s)
+[Wed Mar 22 16:46:22 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 16:46:22 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 16:46:22 2017] [error] Can't locate object method "name" via package "Net::Cisco::ISE::Mock::Schema::Result::Internaluser" at /home/hendrik/NetCiscoIseMock/script/../lib/Net/Cisco/ISE/Mock/Controller/InternalUser.pm line 18.
+
+[Wed Mar 22 16:46:22 2017] [debug] Template "exception.development.html.ep" not found
+[Wed Mar 22 16:46:22 2017] [debug] Template "exception.html.ep" not found
+[Wed Mar 22 16:46:22 2017] [debug] Rendering cached template "mojo/debug.html.ep"
+[Wed Mar 22 16:46:22 2017] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Wed Mar 22 16:46:22 2017] [debug] 500 Internal Server Error (0.00592499999999996s, 168.776/s)
+[Wed Mar 22 16:48:36 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 16:48:36 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 16:48:36 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 16:48:36 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 16:48:36 2017] [debug] 200 OK (0.065999s, 15.152/s)
+[Wed Mar 22 17:07:45 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:07:45 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:07:45 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:07:45 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:07:45 2017] [debug] 200 OK (0.033605s, 29.757/s)
+[Wed Mar 22 17:08:02 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:08:02 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:08:02 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:08:02 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:08:02 2017] [debug] 200 OK (0.001685s, 593.472/s)
+[Wed Mar 22 17:10:13 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:10:13 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:10:13 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:10:13 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:10:13 2017] [debug] 200 OK (0.00163s, 613.497/s)
+[Wed Mar 22 17:10:29 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:10:29 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:10:29 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:10:29 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:10:29 2017] [debug] 200 OK (0.001624s, 615.764/s)
+[Wed Mar 22 17:10:54 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:10:54 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:10:54 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:10:54 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:10:54 2017] [debug] 200 OK (0.001629s, 613.874/s)
+[Wed Mar 22 17:11:27 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:11:27 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:11:27 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:11:27 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:11:27 2017] [debug] 200 OK (0.001728s, 578.704/s)
+[Wed Mar 22 17:13:11 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:13:11 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:13:11 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:13:11 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:13:11 2017] [debug] 200 OK (0.001618s, 618.047/s)
+[Wed Mar 22 17:13:11 2017] [debug] GET "/ers/config/internaluser/4"
+[Wed Mar 22 17:13:11 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:13:11 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 17:13:11 2017] [error] Can't locate object method "changePassword" via package "Net::Cisco::ISE::Mock::Schema::Result::Internaluser" at template internaluser/query.xml.ep line 2.
+1: <ns4:internaluser description="<%= $internaluser->{description} %>" id="<%= $internaluser->{id} %>" name="<%= $internaluser->{name} %>" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
+2:     <changePassword><%= $internaluser->changePassword %></changePassword>
+3:     <customAttributes>
+4:         <entry>
+5:             <key>key1</key>
+6:             <value>value1</value>
+7:         </entry>
+
+[Wed Mar 22 17:13:11 2017] [debug] Template "exception.development.xml.ep" not found
+[Wed Mar 22 17:13:11 2017] [debug] Template "exception.xml.ep" not found
+[Wed Mar 22 17:13:11 2017] [debug] Template "exception.development.html.ep" not found
+[Wed Mar 22 17:13:11 2017] [debug] Template "exception.html.ep" not found
+[Wed Mar 22 17:13:11 2017] [debug] Rendering template "mojo/debug.html.ep"
+[Wed Mar 22 17:13:11 2017] [debug] Rendering template "mojo/menubar.html.ep"
+[Wed Mar 22 17:13:11 2017] [debug] Your secret passphrase needs to be changed
+[Wed Mar 22 17:13:11 2017] [debug] 500 Internal Server Error (0.023195s, 43.113/s)
+[Wed Mar 22 17:13:23 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:13:23 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:13:23 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:13:23 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:13:23 2017] [debug] 200 OK (0.001862s, 537.057/s)
+[Wed Mar 22 17:13:23 2017] [debug] GET "/ers/config/internaluser/4"
+[Wed Mar 22 17:13:23 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:13:23 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Wed Mar 22 17:13:23 2017] [error] Can't locate object method "changePassword" via package "Net::Cisco::ISE::Mock::Schema::Result::Internaluser" at template internaluser/query.xml.ep line 2.
+1: <ns4:internaluser description="<%= $internaluser->{description} %>" id="<%= $internaluser->{id} %>" name="<%= $internaluser->{name} %>" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
+2:     <changePassword><%= $internaluser->changePassword %></changePassword>
+3:     <customAttributes>
+4:         <entry>
+5:             <key>key1</key>
+6:             <value>value1</value>
+7:         </entry>
+
+[Wed Mar 22 17:13:23 2017] [debug] Template "exception.development.xml.ep" not found
+[Wed Mar 22 17:13:23 2017] [debug] Template "exception.xml.ep" not found
+[Wed Mar 22 17:13:23 2017] [debug] Template "exception.development.html.ep" not found
+[Wed Mar 22 17:13:23 2017] [debug] Template "exception.html.ep" not found
+[Wed Mar 22 17:13:23 2017] [debug] Rendering cached template "mojo/debug.html.ep"
+[Wed Mar 22 17:13:23 2017] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Wed Mar 22 17:13:23 2017] [debug] 500 Internal Server Error (0.010103s, 98.981/s)
+[Wed Mar 22 17:20:06 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:20:06 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:20:06 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:20:06 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:20:06 2017] [debug] 200 OK (0.001846s, 541.712/s)
+[Wed Mar 22 17:20:06 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 17:20:06 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:20:06 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Wed Mar 22 17:20:06 2017] [error] Can't locate object method "changePassword" via package "Net::Cisco::ISE::Mock::Schema::Result::Internaluser" at template internaluser/query.xml.ep line 2.
+1: <ns4:internaluser description="<%= $internaluser->{description} %>" id="<%= $internaluser->{id} %>" name="<%= $internaluser->{name} %>" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
+2:     <changePassword><%= $internaluser->changePassword %></changePassword>
+3:     <customAttributes>
+4:         <entry>
+5:             <key>key1</key>
+6:             <value>value1</value>
+7:         </entry>
+
+[Wed Mar 22 17:20:06 2017] [debug] Template "exception.development.xml.ep" not found
+[Wed Mar 22 17:20:06 2017] [debug] Template "exception.xml.ep" not found
+[Wed Mar 22 17:20:06 2017] [debug] Template "exception.development.html.ep" not found
+[Wed Mar 22 17:20:06 2017] [debug] Template "exception.html.ep" not found
+[Wed Mar 22 17:20:06 2017] [debug] Rendering cached template "mojo/debug.html.ep"
+[Wed Mar 22 17:20:06 2017] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Wed Mar 22 17:20:06 2017] [debug] 500 Internal Server Error (0.007865s, 127.146/s)
+[Wed Mar 22 17:20:19 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:20:19 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:20:19 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:20:19 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:20:19 2017] [debug] 200 OK (0.001852s, 539.957/s)
+[Wed Mar 22 17:20:19 2017] [debug] GET "/ers/config/internaluser/2"
+[Wed Mar 22 17:20:19 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:20:19 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Wed Mar 22 17:20:19 2017] [error] Can't locate object method "changePassword" via package "Net::Cisco::ISE::Mock::Schema::Result::Internaluser" at template internaluser/query.xml.ep line 2.
+1: <ns4:internaluser description="<%= $internaluser->{description} %>" id="<%= $internaluser->{id} %>" name="<%= $internaluser->{name} %>" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
+2:     <changePassword><%= $internaluser->changePassword %></changePassword>
+3:     <customAttributes>
+4:         <entry>
+5:             <key>key1</key>
+6:             <value>value1</value>
+7:         </entry>
+
+[Wed Mar 22 17:20:19 2017] [debug] Template "exception.development.xml.ep" not found
+[Wed Mar 22 17:20:19 2017] [debug] Template "exception.xml.ep" not found
+[Wed Mar 22 17:20:19 2017] [debug] Template "exception.development.html.ep" not found
+[Wed Mar 22 17:20:19 2017] [debug] Template "exception.html.ep" not found
+[Wed Mar 22 17:20:19 2017] [debug] Rendering cached template "mojo/debug.html.ep"
+[Wed Mar 22 17:20:19 2017] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Wed Mar 22 17:20:19 2017] [debug] 500 Internal Server Error (0.007737s, 129.249/s)
+[Wed Mar 22 17:21:42 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:21:42 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:21:42 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:21:42 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:21:42 2017] [debug] 200 OK (0.033955s, 29.451/s)
+[Wed Mar 22 17:21:42 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 17:21:42 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:21:42 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 17:21:42 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 17:21:42 2017] [debug] 200 OK (0.028855s, 34.656/s)
+[Wed Mar 22 17:26:31 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:26:31 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:26:31 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:26:31 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:26:31 2017] [debug] 200 OK (0.033144s, 30.171/s)
+[Wed Mar 22 17:26:31 2017] [debug] GET "/ers/config/internaluser/4"
+[Wed Mar 22 17:26:31 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:26:31 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 17:26:31 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 17:26:31 2017] [debug] 200 OK (0.004084s, 244.858/s)
+[Wed Mar 22 17:28:26 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:28:26 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:28:26 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:28:26 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:28:26 2017] [debug] 200 OK (0.033512s, 29.840/s)
+[Wed Mar 22 17:28:26 2017] [debug] GET "/ers/config/internaluser/4"
+[Wed Mar 22 17:28:26 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:28:26 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 17:28:26 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 17:28:26 2017] [debug] 200 OK (0.004031s, 248.077/s)
+[Wed Mar 22 17:28:51 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:28:51 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:28:51 2017] [debug] Template "internal_user/query.html.ep" not found
+[Wed Mar 22 17:28:51 2017] [debug] Nothing has been rendered, expecting delayed response
+[Wed Mar 22 17:29:15 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:29:15 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:29:15 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:29:15 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:29:15 2017] [debug] 200 OK (0.035578s, 28.107/s)
+[Wed Mar 22 17:29:15 2017] [debug] GET "/ers/config/internaluser/4"
+[Wed Mar 22 17:29:15 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:29:15 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 17:29:15 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 17:29:15 2017] [debug] 200 OK (0.003949s, 253.229/s)
+[Wed Mar 22 17:29:58 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:29:58 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:29:58 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:29:58 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:29:58 2017] [debug] 200 OK (0.033522s, 29.831/s)
+[Wed Mar 22 17:29:58 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 17:29:58 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:29:58 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 17:29:58 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 17:29:58 2017] [debug] 200 OK (0.004121s, 242.660/s)
+[Wed Mar 22 17:31:07 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:31:07 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:31:07 2017] [debug] $VAR1 = {
+          'paul' => {
+                      'expirydate' => '31-Jan-2019',
+                      'firstname' => 'Paul',
+                      'id' => 2,
+                      'passwordidstore' => 'Internal',
+                      'changepassword' => 0,
+                      'name' => 'paul',
+                      'password' => 'Linda4Ever',
+                      'expirydateenabled' => 1,
+                      'identitygroups' => '4',
+                      'description' => 'Paul McCartney',
+                      'email' => 'paul@beatl.es',
+                      'enablepassword' => 'Linda4Ever',
+                      'lastname' => 'McCartney',
+                      'enabled' => 1
+                    }
+        };
+
+[Wed Mar 22 17:31:07 2017] [debug] $VAR1 = {
+          'george' => {
+                        'name' => 'george',
+                        'changepassword' => 0,
+                        'passwordidstore' => 'Internal',
+                        'id' => 3,
+                        'firstname' => 'George',
+                        'expirydate' => '31-Jan-2019',
+                        'enabled' => 1,
+                        'lastname' => 'Harrison',
+                        'enablepassword' => 'Pattie4Ever',
+                        'description' => 'George Harrison',
+                        'email' => 'george@beatl.es',
+                        'password' => 'Pattie4Ever',
+                        'identitygroups' => '4',
+                        'expirydateenabled' => 1
+                      },
+          'paul' => {
+                      'expirydate' => '31-Jan-2019',
+                      'firstname' => 'Paul',
+                      'id' => 2,
+                      'passwordidstore' => 'Internal',
+                      'changepassword' => 0,
+                      'name' => 'paul',
+                      'password' => 'Linda4Ever',
+                      'expirydateenabled' => 1,
+                      'identitygroups' => '4',
+                      'description' => 'Paul McCartney',
+                      'email' => 'paul@beatl.es',
+                      'enablepassword' => 'Linda4Ever',
+                      'lastname' => 'McCartney',
+                      'enabled' => 1
+                    }
+        };
+
+[Wed Mar 22 17:31:07 2017] [debug] $VAR1 = {
+          'ringo' => {
+                       'changepassword' => 0,
+                       'name' => 'ringo',
+                       'passwordidstore' => 'Internal',
+                       'id' => 4,
+                       'firstname' => 'Ringo',
+                       'expirydate' => '31-Jan-2019',
+                       'lastname' => 'Starr',
+                       'enabled' => 1,
+                       'enablepassword' => 'Barbara4Ever',
+                       'description' => 'Ringo Starr',
+                       'email' => 'ringo@beatl.es',
+                       'identitygroups' => '4',
+                       'password' => 'Barbara4Ever',
+                       'expirydateenabled' => 1
+                     },
+          'paul' => {
+                      'expirydate' => '31-Jan-2019',
+                      'firstname' => 'Paul',
+                      'id' => 2,
+                      'passwordidstore' => 'Internal',
+                      'changepassword' => 0,
+                      'name' => 'paul',
+                      'password' => 'Linda4Ever',
+                      'expirydateenabled' => 1,
+                      'identitygroups' => '4',
+                      'description' => 'Paul McCartney',
+                      'email' => 'paul@beatl.es',
+                      'enablepassword' => 'Linda4Ever',
+                      'lastname' => 'McCartney',
+                      'enabled' => 1
+                    },
+          'george' => {
+                        'name' => 'george',
+                        'changepassword' => 0,
+                        'passwordidstore' => 'Internal',
+                        'id' => 3,
+                        'firstname' => 'George',
+                        'expirydate' => '31-Jan-2019',
+                        'enabled' => 1,
+                        'lastname' => 'Harrison',
+                        'enablepassword' => 'Pattie4Ever',
+                        'description' => 'George Harrison',
+                        'email' => 'george@beatl.es',
+                        'password' => 'Pattie4Ever',
+                        'identitygroups' => '4',
+                        'expirydateenabled' => 1
+                      }
+        };
+
+[Wed Mar 22 17:31:07 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:31:07 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:31:07 2017] [debug] 200 OK (0.033614s, 29.750/s)
+[Wed Mar 22 17:31:07 2017] [debug] GET "/ers/config/internaluser/4"
+[Wed Mar 22 17:31:07 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:31:07 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 17:31:07 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 17:31:07 2017] [debug] 200 OK (0.003962s, 252.398/s)
+[Wed Mar 22 17:42:10 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:42:10 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:42:10 2017] [debug] $VAR1 = {
+          'paul' => {
+                      'changepassword' => 0,
+                      'name' => 'paul',
+                      'passwordidstore' => 'Internal',
+                      'id' => 2,
+                      'firstname' => 'Paul',
+                      'expirydate' => '31-Jan-2019',
+                      'lastname' => 'McCartney',
+                      'enabled' => 1,
+                      'enablepassword' => 'Linda4Ever',
+                      'description' => 'Paul McCartney',
+                      'email' => 'paul@beatl.es',
+                      'expirydateenabled' => 1,
+                      'password' => 'Linda4Ever',
+                      'identitygroups' => '4'
+                    }
+        };
+
+[Wed Mar 22 17:42:10 2017] [debug] $VAR1 = {
+          'paul' => {
+                      'changepassword' => 0,
+                      'name' => 'paul',
+                      'passwordidstore' => 'Internal',
+                      'id' => 2,
+                      'firstname' => 'Paul',
+                      'expirydate' => '31-Jan-2019',
+                      'lastname' => 'McCartney',
+                      'enabled' => 1,
+                      'enablepassword' => 'Linda4Ever',
+                      'description' => 'Paul McCartney',
+                      'email' => 'paul@beatl.es',
+                      'expirydateenabled' => 1,
+                      'password' => 'Linda4Ever',
+                      'identitygroups' => '4'
+                    },
+          'george' => {
+                        'email' => 'george@beatl.es',
+                        'description' => 'George Harrison',
+                        'password' => 'Pattie4Ever',
+                        'expirydateenabled' => 1,
+                        'identitygroups' => '4',
+                        'lastname' => 'Harrison',
+                        'enabled' => 1,
+                        'enablepassword' => 'Pattie4Ever',
+                        'id' => 3,
+                        'firstname' => 'George',
+                        'expirydate' => '31-Jan-2019',
+                        'changepassword' => 0,
+                        'name' => 'george',
+                        'passwordidstore' => 'Internal'
+                      }
+        };
+
+[Wed Mar 22 17:42:10 2017] [debug] $VAR1 = {
+          'ringo' => {
+                       'enablepassword' => 'Barbara4Ever',
+                       'lastname' => 'Starr',
+                       'enabled' => 1,
+                       'identitygroups' => '4',
+                       'password' => 'Barbara4Ever',
+                       'expirydateenabled' => 1,
+                       'description' => 'Ringo Starr',
+                       'email' => 'ringo@beatl.es',
+                       'passwordidstore' => 'Internal',
+                       'changepassword' => 0,
+                       'name' => 'ringo',
+                       'expirydate' => '31-Jan-2019',
+                       'firstname' => 'Ringo',
+                       'id' => 4
+                     },
+          'paul' => {
+                      'changepassword' => 0,
+                      'name' => 'paul',
+                      'passwordidstore' => 'Internal',
+                      'id' => 2,
+                      'firstname' => 'Paul',
+                      'expirydate' => '31-Jan-2019',
+                      'lastname' => 'McCartney',
+                      'enabled' => 1,
+                      'enablepassword' => 'Linda4Ever',
+                      'description' => 'Paul McCartney',
+                      'email' => 'paul@beatl.es',
+                      'expirydateenabled' => 1,
+                      'password' => 'Linda4Ever',
+                      'identitygroups' => '4'
+                    },
+          'george' => {
+                        'email' => 'george@beatl.es',
+                        'description' => 'George Harrison',
+                        'password' => 'Pattie4Ever',
+                        'expirydateenabled' => 1,
+                        'identitygroups' => '4',
+                        'lastname' => 'Harrison',
+                        'enabled' => 1,
+                        'enablepassword' => 'Pattie4Ever',
+                        'id' => 3,
+                        'firstname' => 'George',
+                        'expirydate' => '31-Jan-2019',
+                        'changepassword' => 0,
+                        'name' => 'george',
+                        'passwordidstore' => 'Internal'
+                      }
+        };
+
+[Wed Mar 22 17:42:10 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:42:10 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:42:10 2017] [debug] 200 OK (0.002091s, 478.240/s)
+[Wed Mar 22 17:42:10 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 17:42:10 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:42:10 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Wed Mar 22 17:42:10 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Wed Mar 22 17:42:10 2017] [debug] 200 OK (0.00178s, 561.798/s)
+[Wed Mar 22 17:43:16 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:43:16 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:43:16 2017] [debug] $VAR1 = {
+          'paul' => {
+                      'enabled' => 1,
+                      'firstname' => 'Paul',
+                      'name' => 'paul',
+                      'password' => 'Linda4Ever',
+                      'lastname' => 'McCartney',
+                      'expirydate' => '31-Jan-2019',
+                      'id' => 2,
+                      'description' => 'Paul McCartney',
+                      'passwordidstore' => 'Internal',
+                      'expirydateenabled' => 1,
+                      'identitygroups' => '4',
+                      'email' => 'paul@beatl.es',
+                      'changepassword' => 0,
+                      'enablepassword' => 'Linda4Ever'
+                    },
+          'george' => {
+                        'changepassword' => 0,
+                        'enablepassword' => 'Pattie4Ever',
+                        'name' => 'george',
+                        'enabled' => 1,
+                        'firstname' => 'George',
+                        'lastname' => 'Harrison',
+                        'password' => 'Pattie4Ever',
+                        'expirydate' => '31-Jan-2019',
+                        'id' => 3,
+                        'passwordidstore' => 'Internal',
+                        'description' => 'George Harrison',
+                        'expirydateenabled' => 1,
+                        'identitygroups' => '4',
+                        'email' => 'george@beatl.es'
+                      },
+          'ringo' => {
+                       'changepassword' => 0,
+                       'enablepassword' => 'Barbara4Ever',
+                       'id' => 4,
+                       'password' => 'Barbara4Ever',
+                       'expirydate' => '31-Jan-2019',
+                       'lastname' => 'Starr',
+                       'firstname' => 'Ringo',
+                       'enabled' => 1,
+                       'name' => 'ringo',
+                       'passwordidstore' => 'Internal',
+                       'description' => 'Ringo Starr',
+                       'expirydateenabled' => 1,
+                       'email' => 'ringo@beatl.es',
+                       'identitygroups' => '4'
+                     }
+        };
+
+[Wed Mar 22 17:43:16 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:43:16 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:43:16 2017] [debug] 200 OK (0.033601s, 29.761/s)
+[Wed Mar 22 17:43:16 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 17:43:16 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:43:16 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 17:43:16 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 17:43:16 2017] [debug] 200 OK (0.003903s, 256.213/s)
+[Wed Mar 22 17:45:23 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:45:23 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:45:23 2017] [debug] $VAR1 = {
+          'ringo' => {
+                       'enabled' => 1,
+                       'name' => 'ringo',
+                       'password' => 'Barbara4Ever',
+                       'id' => 4,
+                       'firstName' => 'Ringo',
+                       'description' => 'Ringo Starr',
+                       'passwordIDStore' => 'Internal',
+                       'identityGroups' => '4',
+                       'enablePassword' => 'Barbara4Ever',
+                       'email' => 'ringo@beatl.es',
+                       'lastName' => 'Starr',
+                       'enablepassword' => undef,
+                       'changePassword' => 0,
+                       'expiryDateEnabled' => 1,
+                       'expiryDate' => '31-Jan-2019'
+                     },
+          'george' => {
+                        'expiryDateEnabled' => 1,
+                        'changePassword' => 0,
+                        'expiryDate' => '31-Jan-2019',
+                        'lastName' => 'Harrison',
+                        'enablepassword' => undef,
+                        'enablePassword' => 'Pattie4Ever',
+                        'identityGroups' => '4',
+                        'passwordIDStore' => 'Internal',
+                        'email' => 'george@beatl.es',
+                        'id' => 3,
+                        'password' => 'Pattie4Ever',
+                        'name' => 'george',
+                        'enabled' => 1,
+                        'firstName' => 'George',
+                        'description' => 'George Harrison'
+                      },
+          'paul' => {
+                      'email' => 'paul@beatl.es',
+                      'passwordIDStore' => 'Internal',
+                      'enablePassword' => 'Linda4Ever',
+                      'identityGroups' => '4',
+                      'firstName' => 'Paul',
+                      'description' => 'Paul McCartney',
+                      'enabled' => 1,
+                      'name' => 'paul',
+                      'id' => 2,
+                      'password' => 'Linda4Ever',
+                      'expiryDate' => '31-Jan-2019',
+                      'expiryDateEnabled' => 1,
+                      'changePassword' => 0,
+                      'enablepassword' => undef,
+                      'lastName' => 'McCartney'
+                    }
+        };
+
+[Wed Mar 22 17:45:23 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:45:23 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:45:23 2017] [debug] 200 OK (0.039526s, 25.300/s)
+[Wed Mar 22 17:45:23 2017] [debug] GET "/ers/config/internaluser/2"
+[Wed Mar 22 17:45:23 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:45:23 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 17:45:23 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 17:45:23 2017] [debug] 200 OK (0.004071s, 245.640/s)
+[Wed Mar 22 17:45:50 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 17:45:50 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:45:50 2017] [debug] $VAR1 = {
+          'george' => {
+                        'email' => 'george@beatl.es',
+                        'identityGroups' => '4',
+                        'enablePassword' => 'Pattie4Ever',
+                        'passwordIDStore' => 'Internal',
+                        'description' => 'George Harrison',
+                        'firstName' => 'George',
+                        'id' => 3,
+                        'password' => 'Pattie4Ever',
+                        'name' => 'george',
+                        'enabled' => 1,
+                        'expiryDate' => '31-Jan-2019',
+                        'changePassword' => 0,
+                        'expiryDateEnabled' => 1,
+                        'lastName' => 'Harrison'
+                      },
+          'ringo' => {
+                       'email' => 'ringo@beatl.es',
+                       'enablePassword' => 'Barbara4Ever',
+                       'identityGroups' => '4',
+                       'passwordIDStore' => 'Internal',
+                       'firstName' => 'Ringo',
+                       'description' => 'Ringo Starr',
+                       'id' => 4,
+                       'password' => 'Barbara4Ever',
+                       'enabled' => 1,
+                       'name' => 'ringo',
+                       'expiryDate' => '31-Jan-2019',
+                       'expiryDateEnabled' => 1,
+                       'changePassword' => 0,
+                       'lastName' => 'Starr'
+                     },
+          'paul' => {
+                      'passwordIDStore' => 'Internal',
+                      'enablePassword' => 'Linda4Ever',
+                      'identityGroups' => '4',
+                      'email' => 'paul@beatl.es',
+                      'name' => 'paul',
+                      'enabled' => 1,
+                      'id' => 2,
+                      'password' => 'Linda4Ever',
+                      'description' => 'Paul McCartney',
+                      'firstName' => 'Paul',
+                      'expiryDateEnabled' => 1,
+                      'changePassword' => 0,
+                      'expiryDate' => '31-Jan-2019',
+                      'lastName' => 'McCartney'
+                    }
+        };
+
+[Wed Mar 22 17:45:50 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 17:45:50 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 17:45:50 2017] [debug] 200 OK (0.037396s, 26.741/s)
+[Wed Mar 22 17:45:50 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 17:45:50 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 17:45:50 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 17:45:50 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 17:45:50 2017] [debug] 200 OK (0.003957s, 252.717/s)
+[Wed Mar 22 23:41:32 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 23:41:32 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 23:41:32 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 23:41:32 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 23:41:32 2017] [debug] 200 OK (0.464072s, 2.155/s)
+[Wed Mar 22 23:45:03 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 23:45:03 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 23:45:03 2017] [debug] $VAR1 = \bless( {
+                   '_result_source' => bless( {
+                                                'schema' => bless( {
+                                                                     'storage' => bless( {
+                                                                                           '_sql_maker' => bless( {
+                                                                                                                    'like_op' => qr/^ (is\s+)? r?like $/ix,
+                                                                                                                    'logic' => 'OR',
+                                                                                                                    'not_like_op' => qr/^ (is\s+)? not \s+ r?like $/ix,
+                                                                                                                    'injection_guard' => qr/
+    \;
+      |
+    ^ \s* go \s
+  /mix,
+                                                                                                                    'special_ops' => [
+                                                                                                                                       {
+                                                                                                                                         'handler' => '_where_field_BETWEEN',
+                                                                                                                                         'regex' => qr/^ (?: not \s )? between $/ix
+                                                                                                                                       },
+                                                                                                                                       {
+                                                                                                                                         'regex' => qr/^ (?: not \s )? in      $/ix,
+                                                                                                                                         'handler' => '_where_field_IN'
+                                                                                                                                       },
+                                                                                                                                       {
+                                                                                                                                         'handler' => '_where_op_IDENT',
+                                                                                                                                         'regex' => qr/^ ident                 $/ix
+                                                                                                                                       },
+                                                                                                                                       {
+                                                                                                                                         'handler' => '_where_op_VALUE',
+                                                                                                                                         'regex' => qr/^ value                 $/ix
+                                                                                                                                       },
+                                                                                                                                       {
+                                                                                                                                         'regex' => qr/^ is (?: \s+ not )?     $/ix,
+                                                                                                                                         'handler' => '_where_field_IS'
+                                                                                                                                       }
+                                                                                                                                     ],
+                                                                                                                    'unary_ops' => [
+                                                                                                                                     {
+                                                                                                                                       'regex' => qr/^ and  (?: [_\s]? \d+ )? $/ix,
+                                                                                                                                       'handler' => '_where_op_ANDOR'
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                       'handler' => '_where_op_ANDOR',
+                                                                                                                                       'regex' => qr/^ or   (?: [_\s]? \d+ )? $/ix
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                       'regex' => qr/^ nest (?: [_\s]? \d+ )? $/ix,
+                                                                                                                                       'handler' => '_where_op_NEST'
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                       'regex' => qr/^ (?: not \s )? bool     $/ix,
+                                                                                                                                       'handler' => '_where_op_BOOL'
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                       'regex' => qr/^ ident                  $/ix,
+                                                                                                                                       'handler' => '_where_op_IDENT'
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                       'regex' => qr/^ value                  $/ix,
+                                                                                                                                       'handler' => '_where_op_VALUE'
+                                                                                                                                     }
+                                                                                                                                   ],
+                                                                                                                    'equality_op' => qr/^( \= | \= )$/ix,
+                                                                                                                    'bindtype' => 'columns',
+                                                                                                                    'sqltrue' => '1=1',
+                                                                                                                    'cmp' => '=',
+                                                                                                                    'sqlfalse' => '0=1',
+                                                                                                                    'limit_dialect' => 'LimitOffset',
+                                                                                                                    'array_datatypes' => 1,
+                                                                                                                    'inequality_op' => qr/^( != | <> )$/ix,
+                                                                                                                    'name_sep' => '.'
+                                                                                                                  }, 'DBIx::Class::SQLMaker::SQLite' ),
+                                                                                           '_conn_pid' => 3684,
+                                                                                           '_dbh_autocommit' => 1,
+                                                                                           'schema' => ${$VAR1}->{'_result_source'}->{'schema'},
+                                                                                           '_sql_maker_opts' => {},
+                                                                                           '_in_do_block' => 0,
+                                                                                           '_dbh_details' => {
+                                                                                                               '_datatype_map_cache' => {
+                                                                                                                                          'integer' => -5
+                                                                                                                                        }
+                                                                                                             },
+                                                                                           'savepoints' => [],
+                                                                                           '_dbic_connect_attributes' => {
+                                                                                                                           'AutoCommit' => 1,
+                                                                                                                           'ShowErrorStatement' => 1,
+                                                                                                                           'RaiseError' => 1,
+                                                                                                                           'PrintError' => 0
+                                                                                                                         },
+                                                                                           'transaction_depth' => 0,
+                                                                                           '_connect_info' => [
+                                                                                                                'dbi:SQLite:ise.db'
+                                                                                                              ],
+                                                                                           '_driver_determined' => 1,
+                                                                                           '_dbh' => bless( {}, 'DBI::db' ),
+                                                                                           '_dbi_connect_info' => [
+                                                                                                                    'dbi:SQLite:ise.db',
+                                                                                                                    undef,
+                                                                                                                    undef,
+                                                                                                                    ${$VAR1}->{'_result_source'}->{'schema'}->{'storage'}->{'_dbic_connect_attributes'}
+                                                                                                                  ]
+                                                                                         }, 'DBIx::Class::Storage::DBI::SQLite' ),
+                                                                     'source_registrations' => {
+                                                                                                 'Internaluser' => ${$VAR1}->{'_result_source'},
+                                                                                                 'Identitygroup' => bless( {
+                                                                                                                             'source_name' => 'Identitygroup',
+                                                                                                                             '_relationships' => {},
+                                                                                                                             'schema' => ${$VAR1}->{'_result_source'}->{'schema'},
+                                                                                                                             '_columns_info_loaded' => 0,
+                                                                                                                             '_ordered_columns' => [
+                                                                                                                                                     'id',
+                                                                                                                                                     'description',
+                                                                                                                                                     'name'
+                                                                                                                                                   ],
+                                                                                                                             'result_class' => 'Net::Cisco::ISE::Mock::Schema::Result::Identitygroup',
+                                                                                                                             'name' => 'identitygroups',
+                                                                                                                             'resultset_attributes' => {},
+                                                                                                                             'resultset_class' => 'DBIx::Class::ResultSet',
+                                                                                                                             '_columns' => {
+                                                                                                                                             'description' => {
+                                                                                                                                                                'data_type' => 'text',
+                                                                                                                                                                'is_nullable' => 1
+                                                                                                                                                              },
+                                                                                                                                             'id' => {
+                                                                                                                                                       'is_nullable' => 1,
+                                                                                                                                                       'data_type' => 'integer'
+                                                                                                                                                     },
+                                                                                                                                             'name' => {
+                                                                                                                                                         'is_nullable' => 1,
+                                                                                                                                                         'data_type' => 'text'
+                                                                                                                                                       }
+                                                                                                                                           }
+                                                                                                                           }, 'DBIx::Class::ResultSource::Table' )
+                                                                                               },
+                                                                     'class_mappings' => {
+                                                                                           'Net::Cisco::ISE::Mock::Schema::Result::Internaluser' => 'Internaluser',
+                                                                                           'Net::Cisco::ISE::Mock::Schema::Result::Identitygroup' => 'Identitygroup'
+                                                                                         }
+                                                                   }, 'Net::Cisco::ISE::Mock::Schema' ),
+                                                'source_name' => 'Internaluser',
+                                                '_relationships' => {},
+                                                'resultset_class' => 'DBIx::Class::ResultSet',
+                                                '_columns' => {
+                                                                'changepassword' => {
+                                                                                      'data_type' => 'integer',
+                                                                                      'is_nullable' => 1
+                                                                                    },
+                                                                'firstname' => {
+                                                                                 'data_type' => 'text',
+                                                                                 'is_nullable' => 1
+                                                                               },
+                                                                'password' => {
+                                                                                'is_nullable' => 1,
+                                                                                'data_type' => 'text'
+                                                                              },
+                                                                'identitygroups' => {
+                                                                                      'data_type' => 'text',
+                                                                                      'is_nullable' => 1
+                                                                                    },
+                                                                'expirydateenabled' => {
+                                                                                         'data_type' => 'integer',
+                                                                                         'is_nullable' => 1
+                                                                                       },
+                                                                'expirydate' => {
+                                                                                  'is_nullable' => 1,
+                                                                                  'data_type' => 'text'
+                                                                                },
+                                                                'id' => {
+                                                                          'data_type' => 'integer',
+                                                                          'is_nullable' => 1
+                                                                        },
+                                                                'lastname' => {
+                                                                                'data_type' => 'text',
+                                                                                'is_nullable' => 1
+                                                                              },
+                                                                'email' => {
+                                                                             'data_type' => 'text',
+                                                                             'is_nullable' => 1
+                                                                           },
+                                                                'passwordidstore' => {
+                                                                                       'is_nullable' => 1,
+                                                                                       'data_type' => 'text'
+                                                                                     },
+                                                                'enablepassword' => {
+                                                                                      'data_type' => 'text',
+                                                                                      'is_nullable' => 1
+                                                                                    },
+                                                                'enabled' => {
+                                                                               'is_nullable' => 1,
+                                                                               'data_type' => 'integer'
+                                                                             },
+                                                                'name' => {
+                                                                            'data_type' => 'text',
+                                                                            'is_nullable' => 1
+                                                                          }
+                                                              },
+                                                'resultset_attributes' => {},
+                                                'result_class' => 'Net::Cisco::ISE::Mock::Schema::Result::Internaluser',
+                                                'name' => 'internalusers',
+                                                '_columns_info_loaded' => 0,
+                                                '_ordered_columns' => [
+                                                                        'id',
+                                                                        'email',
+                                                                        'name',
+                                                                        'firstname',
+                                                                        'lastname',
+                                                                        'identitygroups',
+                                                                        'changepassword',
+                                                                        'expirydateenabled',
+                                                                        'expirydate',
+                                                                        'enablepassword',
+                                                                        'enabled',
+                                                                        'password',
+                                                                        'passwordidstore'
+                                                                      ]
+                                              }, 'DBIx::Class::ResultSource::Table' ),
+                   '_in_storage' => 1,
+                   '_column_data' => {
+                                       'enablepassword' => 'Pattie4Ever',
+                                       'passwordidstore' => 'Internal',
+                                       'enabled' => 1,
+                                       'name' => 'george',
+                                       'identitygroups' => '4',
+                                       'password' => 'Pattie4Ever',
+                                       'firstname' => 'George',
+                                       'changepassword' => 0,
+                                       'expirydate' => '31-Jan-2019',
+                                       'lastname' => 'Harrison',
+                                       'email' => 'george@beatl.es',
+                                       'id' => 3,
+                                       'expirydateenabled' => 1
+                                     }
+                 }, 'Net::Cisco::ISE::Mock::Schema::Result::Internaluser' );
+
+[Wed Mar 22 23:45:03 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 23:45:03 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 23:45:03 2017] [debug] 200 OK (0.055495s, 18.020/s)
+[Wed Mar 22 23:47:54 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 23:47:54 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 23:47:54 2017] [debug] $VAR1 = \{
+            'enablePassword' => 'Pattie4Ever',
+            'description' => 'George Harrison',
+            'firstName' => 'George',
+            'enabled' => 1,
+            'name' => 'george',
+            'identityGroups' => '4',
+            'password' => 'Pattie4Ever',
+            'expiryDateEnabled' => 1,
+            'id' => 3,
+            'passwordIDStore' => 'Internal',
+            'changePassword' => 0,
+            'email' => 'george@beatl.es',
+            'lastName' => 'Harrison',
+            'expiryDate' => '31-Jan-2019'
+          };
+
+[Wed Mar 22 23:47:54 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 23:47:54 2017] [error] Can't call method "changepassword" on unblessed reference at template internaluser/query.xml.ep line 2.
+1: <ns4:internaluser description="<%= $internaluser->{description} %>" id="<%= $internaluser->{id} %>" name="<%= $internaluser->{name} %>" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
+2:     <changePassword><%= $internaluser->changepassword %></changePassword>
+3:     <customAttributes>
+4:         <entry>
+5:             <key>key1</key>
+6:             <value>value1</value>
+7:         </entry>
+
+[Wed Mar 22 23:47:54 2017] [debug] Template "exception.development.xml.ep" not found
+[Wed Mar 22 23:47:54 2017] [debug] Template "exception.xml.ep" not found
+[Wed Mar 22 23:47:54 2017] [debug] Template "exception.development.html.ep" not found
+[Wed Mar 22 23:47:54 2017] [debug] Template "exception.html.ep" not found
+[Wed Mar 22 23:47:54 2017] [debug] Rendering template "mojo/debug.html.ep"
+[Wed Mar 22 23:47:54 2017] [debug] Rendering template "mojo/menubar.html.ep"
+[Wed Mar 22 23:47:54 2017] [debug] Your secret passphrase needs to be changed
+[Wed Mar 22 23:47:54 2017] [debug] 500 Internal Server Error (0.123302s, 8.110/s)
+[Wed Mar 22 23:53:39 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 23:53:39 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 23:53:39 2017] [debug] $VAR1 = \{
+            'password' => 'Pattie4Ever',
+            'identityGroups' => '4',
+            'expiryDateEnabled' => 1,
+            'changePassword' => 0,
+            'passwordIDStore' => 'Internal',
+            'email' => 'george@beatl.es',
+            'id' => 3,
+            'expiryDate' => '31-Jan-2019',
+            'lastName' => 'Harrison',
+            'enablePassword' => 'Pattie4Ever',
+            'description' => 'George Harrison',
+            'firstName' => 'George',
+            'name' => 'george',
+            'enabled' => 1
+          };
+
+[Wed Mar 22 23:53:39 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Wed Mar 22 23:53:39 2017] [error] Can't call method "changepassword" on unblessed reference at template internaluser/query.xml.ep line 2.
+1: <ns4:internaluser description="<%= $internaluser->{description} %>" id="<%= $internaluser->{id} %>" name="<%= $internaluser->{name} %>" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
+2:     <changePassword><%= $internaluser->changepassword %></changePassword>
+3:     <customAttributes>
+4:         <entry>
+5:             <key>key1</key>
+6:             <value>value1</value>
+7:         </entry>
+
+[Wed Mar 22 23:53:39 2017] [debug] Template "exception.development.xml.ep" not found
+[Wed Mar 22 23:53:39 2017] [debug] Template "exception.xml.ep" not found
+[Wed Mar 22 23:53:39 2017] [debug] Template "exception.development.html.ep" not found
+[Wed Mar 22 23:53:39 2017] [debug] Template "exception.html.ep" not found
+[Wed Mar 22 23:53:39 2017] [debug] Rendering cached template "mojo/debug.html.ep"
+[Wed Mar 22 23:53:39 2017] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Wed Mar 22 23:53:39 2017] [debug] 500 Internal Server Error (0.019609s, 50.997/s)
+[Wed Mar 22 23:54:10 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 23:54:10 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 23:54:10 2017] [debug] $VAR1 = \{
+            'password' => 'Pattie4Ever',
+            'identityGroups' => '4',
+            'expiryDateEnabled' => 1,
+            'email' => 'george@beatl.es',
+            'passwordIDStore' => 'Internal',
+            'changePassword' => 0,
+            'id' => 3,
+            'lastName' => 'Harrison',
+            'expiryDate' => '31-Jan-2019',
+            'enablePassword' => 'Pattie4Ever',
+            'description' => 'George Harrison',
+            'firstName' => 'George',
+            'enabled' => 1,
+            'name' => 'george'
+          };
+
+[Wed Mar 22 23:54:10 2017] [debug] Rendering template "internaluser/query.xml.ep"
+[Wed Mar 22 23:54:10 2017] [debug] Rendering template "layouts/internaluser.xml.ep"
+[Wed Mar 22 23:54:10 2017] [debug] 200 OK (0.038761s, 25.799/s)
+[Wed Mar 22 23:54:30 2017] [debug] GET "/ers/config/internaluser/"
+[Wed Mar 22 23:54:30 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 23:54:30 2017] [debug] $VAR1 = {
+          'paul' => {
+                      'identityGroups' => '4',
+                      'password' => 'Linda4Ever',
+                      'expiryDateEnabled' => 1,
+                      'passwordIDStore' => 'Internal',
+                      'id' => 2,
+                      'email' => 'paul@beatl.es',
+                      'changePassword' => 0,
+                      'expiryDate' => '31-Jan-2019',
+                      'lastName' => 'McCartney',
+                      'description' => 'Paul McCartney',
+                      'enablePassword' => 'Linda4Ever',
+                      'firstName' => 'Paul',
+                      'name' => 'paul',
+                      'enabled' => 1
+                    },
+          'ringo' => {
+                       'password' => 'Barbara4Ever',
+                       'identityGroups' => '4',
+                       'expiryDateEnabled' => 1,
+                       'changePassword' => 0,
+                       'passwordIDStore' => 'Internal',
+                       'id' => 4,
+                       'email' => 'ringo@beatl.es',
+                       'expiryDate' => '31-Jan-2019',
+                       'lastName' => 'Starr',
+                       'enablePassword' => 'Barbara4Ever',
+                       'description' => 'Ringo Starr',
+                       'firstName' => 'Ringo',
+                       'enabled' => 1,
+                       'name' => 'ringo'
+                     },
+          'george' => {
+                        'name' => 'george',
+                        'enabled' => 1,
+                        'enablePassword' => 'Pattie4Ever',
+                        'description' => 'George Harrison',
+                        'firstName' => 'George',
+                        'email' => 'george@beatl.es',
+                        'passwordIDStore' => 'Internal',
+                        'changePassword' => 0,
+                        'id' => 3,
+                        'expiryDate' => '31-Jan-2019',
+                        'lastName' => 'Harrison',
+                        'identityGroups' => '4',
+                        'password' => 'Pattie4Ever',
+                        'expiryDateEnabled' => 1
+                      }
+        };
+
+[Wed Mar 22 23:54:30 2017] [debug] Rendering template "internaluser/queryall.xml.ep"
+[Wed Mar 22 23:54:30 2017] [debug] Rendering template "layouts/internaluserall.xml.ep"
+[Wed Mar 22 23:54:30 2017] [debug] 200 OK (0.030958s, 32.302/s)
+[Wed Mar 22 23:54:30 2017] [debug] GET "/ers/config/internaluser/2"
+[Wed Mar 22 23:54:30 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 23:54:31 2017] [debug] $VAR1 = \{
+            'email' => 'paul@beatl.es',
+            'passwordIDStore' => 'Internal',
+            'id' => 2,
+            'changePassword' => 0,
+            'expiryDate' => '31-Jan-2019',
+            'lastName' => 'McCartney',
+            'password' => 'Linda4Ever',
+            'identityGroups' => '4',
+            'expiryDateEnabled' => 1,
+            'name' => 'paul',
+            'enabled' => 1,
+            'enablePassword' => 'Linda4Ever',
+            'description' => 'Paul McCartney',
+            'firstName' => 'Paul'
+          };
+
+[Wed Mar 22 23:54:31 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Wed Mar 22 23:54:31 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Wed Mar 22 23:54:31 2017] [debug] 200 OK (0.00636499999999995s, 157.109/s)
+[Wed Mar 22 23:54:46 2017] [debug] GET "/ers/config/internaluser/3"
+[Wed Mar 22 23:54:46 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Wed Mar 22 23:54:46 2017] [debug] $VAR1 = \{
+            'expiryDateEnabled' => 1,
+            'identityGroups' => '4',
+            'password' => 'Pattie4Ever',
+            'expiryDate' => '31-Jan-2019',
+            'lastName' => 'Harrison',
+            'changePassword' => 0,
+            'passwordIDStore' => 'Internal',
+            'email' => 'george@beatl.es',
+            'id' => 3,
+            'firstName' => 'George',
+            'description' => 'George Harrison',
+            'enablePassword' => 'Pattie4Ever',
+            'name' => 'george',
+            'enabled' => 1
+          };
+
+[Wed Mar 22 23:54:46 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Wed Mar 22 23:54:46 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Wed Mar 22 23:54:46 2017] [debug] 200 OK (0.006075s, 164.609/s)
+[Thu Mar 23 00:05:41 2017] [debug] GET "/ers/config/internaluser/"
+[Thu Mar 23 00:05:41 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:05:41 2017] [debug] $VAR1 = {
+          'george' => {
+                        'name' => 'george',
+                        'enabled' => 1,
+                        'description' => 'George Harrison',
+                        'enablePassword' => 'Pattie4Ever',
+                        'firstName' => 'George',
+                        'changePassword' => 0,
+                        'passwordIDStore' => 'Internal',
+                        'email' => 'george@beatl.es',
+                        'id' => 3,
+                        'expiryDate' => '31-Jan-2019',
+                        'lastName' => 'Harrison',
+                        'identityGroups' => '4',
+                        'password' => 'Pattie4Ever',
+                        'expiryDateEnabled' => 1
+                      },
+          'ringo' => {
+                       'expiryDateEnabled' => 1,
+                       'password' => 'Barbara4Ever',
+                       'identityGroups' => '4',
+                       'lastName' => 'Starr',
+                       'expiryDate' => '31-Jan-2019',
+                       'passwordIDStore' => 'Internal',
+                       'email' => 'ringo@beatl.es',
+                       'changePassword' => 0,
+                       'id' => 4,
+                       'firstName' => 'Ringo',
+                       'enablePassword' => 'Barbara4Ever',
+                       'description' => 'Ringo Starr',
+                       'enabled' => 1,
+                       'name' => 'ringo'
+                     },
+          'paul' => {
+                      'expiryDateEnabled' => 1,
+                      'identityGroups' => '4',
+                      'password' => 'Linda4Ever',
+                      'lastName' => 'McCartney',
+                      'expiryDate' => '31-Jan-2019',
+                      'id' => 2,
+                      'passwordIDStore' => 'Internal',
+                      'email' => 'paul@beatl.es',
+                      'changePassword' => 0,
+                      'firstName' => 'Paul',
+                      'enablePassword' => 'Linda4Ever',
+                      'description' => 'Paul McCartney',
+                      'name' => 'paul',
+                      'enabled' => 1
+                    }
+        };
+
+[Thu Mar 23 00:05:41 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Thu Mar 23 00:05:41 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Thu Mar 23 00:05:41 2017] [debug] 200 OK (0.002119s, 471.921/s)
+[Thu Mar 23 00:05:41 2017] [debug] GET "/ers/config/internaluser/3"
+[Thu Mar 23 00:05:41 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:05:41 2017] [debug] $VAR1 = \{
+            'id' => 3,
+            'passwordIDStore' => 'Internal',
+            'email' => 'george@beatl.es',
+            'changePassword' => 0,
+            'lastName' => 'Harrison',
+            'expiryDate' => '31-Jan-2019',
+            'password' => 'Pattie4Ever',
+            'identityGroups' => '4',
+            'expiryDateEnabled' => 1,
+            'name' => 'george',
+            'enabled' => 1,
+            'enablePassword' => 'Pattie4Ever',
+            'description' => 'George Harrison',
+            'firstName' => 'George'
+          };
+
+[Thu Mar 23 00:05:41 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:05:41 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:05:41 2017] [debug] 200 OK (0.002242s, 446.030/s)
+[Thu Mar 23 00:06:00 2017] [debug] GET "/ers/config/internaluser/"
+[Thu Mar 23 00:06:00 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:06:00 2017] [debug] $VAR1 = {
+          'paul' => {
+                      'enabled' => 1,
+                      'name' => 'paul',
+                      'enablePassword' => 'Linda4Ever',
+                      'description' => 'Paul McCartney',
+                      'firstName' => 'Paul',
+                      'changePassword' => 0,
+                      'passwordIDStore' => 'Internal',
+                      'id' => 2,
+                      'email' => 'paul@beatl.es',
+                      'expiryDate' => '31-Jan-2019',
+                      'lastName' => 'McCartney',
+                      'password' => 'Linda4Ever',
+                      'identityGroups' => '4',
+                      'expiryDateEnabled' => 1
+                    },
+          'ringo' => {
+                       'expiryDateEnabled' => 1,
+                       'password' => 'Barbara4Ever',
+                       'identityGroups' => '4',
+                       'expiryDate' => '31-Jan-2019',
+                       'lastName' => 'Starr',
+                       'changePassword' => 0,
+                       'passwordIDStore' => 'Internal',
+                       'id' => 4,
+                       'email' => 'ringo@beatl.es',
+                       'firstName' => 'Ringo',
+                       'description' => 'Ringo Starr',
+                       'enablePassword' => 'Barbara4Ever',
+                       'name' => 'ringo',
+                       'enabled' => 1
+                     },
+          'george' => {
+                        'enablePassword' => 'Pattie4Ever',
+                        'description' => 'George Harrison',
+                        'firstName' => 'George',
+                        'enabled' => 1,
+                        'name' => 'george',
+                        'password' => 'Pattie4Ever',
+                        'identityGroups' => '4',
+                        'expiryDateEnabled' => 1,
+                        'passwordIDStore' => 'Internal',
+                        'id' => 3,
+                        'email' => 'george@beatl.es',
+                        'changePassword' => 0,
+                        'lastName' => 'Harrison',
+                        'expiryDate' => '31-Jan-2019'
+                      }
+        };
+
+[Thu Mar 23 00:06:00 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Thu Mar 23 00:06:00 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Thu Mar 23 00:06:00 2017] [debug] 200 OK (0.001857s, 538.503/s)
+[Thu Mar 23 00:06:00 2017] [debug] GET "/ers/config/internaluser/2"
+[Thu Mar 23 00:06:00 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:06:00 2017] [debug] $VAR1 = \{
+            'expiryDateEnabled' => 1,
+            'identityGroups' => '4',
+            'password' => 'Linda4Ever',
+            'expiryDate' => '31-Jan-2019',
+            'lastName' => 'McCartney',
+            'passwordIDStore' => 'Internal',
+            'id' => 2,
+            'email' => 'paul@beatl.es',
+            'changePassword' => 0,
+            'firstName' => 'Paul',
+            'enablePassword' => 'Linda4Ever',
+            'description' => 'Paul McCartney',
+            'name' => 'paul',
+            'enabled' => 1
+          };
+
+[Thu Mar 23 00:06:00 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:06:00 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:06:00 2017] [debug] 200 OK (0.001908s, 524.109/s)
+[Thu Mar 23 00:07:27 2017] [debug] GET "/ers/config/internaluser/"
+[Thu Mar 23 00:07:27 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:07:27 2017] [debug] $VAR1 = {
+          'paul' => {
+                      'name' => 'paul',
+                      'enabled' => 1,
+                      'description' => 'Paul McCartney',
+                      'enablePassword' => 'Linda4Ever',
+                      'firstName' => 'Paul',
+                      'passwordIDStore' => 'Internal',
+                      'id' => 2,
+                      'email' => 'paul@beatl.es',
+                      'changePassword' => 0,
+                      'lastName' => 'McCartney',
+                      'expiryDate' => '31-Jan-2019',
+                      'identityGroups' => '4',
+                      'password' => 'Linda4Ever',
+                      'expiryDateEnabled' => 1
+                    },
+          'ringo' => {
+                       'firstName' => 'Ringo',
+                       'enablePassword' => 'Barbara4Ever',
+                       'description' => 'Ringo Starr',
+                       'enabled' => 1,
+                       'name' => 'ringo',
+                       'expiryDateEnabled' => 1,
+                       'password' => 'Barbara4Ever',
+                       'identityGroups' => '4',
+                       'lastName' => 'Starr',
+                       'expiryDate' => '31-Jan-2019',
+                       'passwordIDStore' => 'Internal',
+                       'changePassword' => 0,
+                       'id' => 4,
+                       'email' => 'ringo@beatl.es'
+                     },
+          'george' => {
+                        'enabled' => 1,
+                        'name' => 'george',
+                        'firstName' => 'George',
+                        'description' => 'George Harrison',
+                        'enablePassword' => 'Pattie4Ever',
+                        'expiryDate' => '31-Jan-2019',
+                        'lastName' => 'Harrison',
+                        'changePassword' => 0,
+                        'passwordIDStore' => 'Internal',
+                        'id' => 3,
+                        'email' => 'george@beatl.es',
+                        'expiryDateEnabled' => 1,
+                        'identityGroups' => '4',
+                        'password' => 'Pattie4Ever'
+                      }
+        };
+
+[Thu Mar 23 00:07:27 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Thu Mar 23 00:07:27 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Thu Mar 23 00:07:27 2017] [debug] 200 OK (0.001902s, 525.762/s)
+[Thu Mar 23 00:07:27 2017] [debug] GET "/ers/config/internaluser/3"
+[Thu Mar 23 00:07:27 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:07:27 2017] [debug] $VAR1 = \{
+            'name' => 'george',
+            'enabled' => 1,
+            'enablePassword' => 'Pattie4Ever',
+            'description' => 'George Harrison',
+            'firstName' => 'George',
+            'id' => 3,
+            'passwordIDStore' => 'Internal',
+            'changePassword' => 0,
+            'email' => 'george@beatl.es',
+            'lastName' => 'Harrison',
+            'expiryDate' => '31-Jan-2019',
+            'identityGroups' => '4',
+            'password' => 'Pattie4Ever',
+            'expiryDateEnabled' => 1
+          };
+
+[Thu Mar 23 00:07:27 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:07:27 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:07:27 2017] [debug] 200 OK (0.001898s, 526.870/s)
+[Thu Mar 23 00:10:53 2017] [debug] GET "/ers/config/internaluser/"
+[Thu Mar 23 00:10:53 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:10:53 2017] [debug] $VAR1 = {
+          'george' => {
+                        'expiryDateEnabled' => 1,
+                        'password' => 'Pattie4Ever',
+                        'identityGroups' => '4',
+                        'expiryDate' => '31-Jan-2019',
+                        'lastName' => 'Harrison',
+                        'passwordIDStore' => 'Internal',
+                        'changePassword' => 0,
+                        'email' => 'george@beatl.es',
+                        'id' => 3,
+                        'firstName' => 'George',
+                        'description' => 'George Harrison',
+                        'enablePassword' => 'Pattie4Ever',
+                        'name' => 'george',
+                        'enabled' => 1
+                      },
+          'ringo' => {
+                       'enabled' => 1,
+                       'name' => 'ringo',
+                       'firstName' => 'Ringo',
+                       'description' => 'Ringo Starr',
+                       'enablePassword' => 'Barbara4Ever',
+                       'expiryDate' => '31-Jan-2019',
+                       'lastName' => 'Starr',
+                       'passwordIDStore' => 'Internal',
+                       'id' => 4,
+                       'email' => 'ringo@beatl.es',
+                       'changePassword' => 0,
+                       'expiryDateEnabled' => 1,
+                       'identityGroups' => '4',
+                       'password' => 'Barbara4Ever'
+                     },
+          'paul' => {
+                      'email' => 'paul@beatl.es',
+                      'passwordIDStore' => 'Internal',
+                      'id' => 2,
+                      'changePassword' => 0,
+                      'lastName' => 'McCartney',
+                      'expiryDate' => '31-Jan-2019',
+                      'identityGroups' => '4',
+                      'password' => 'Linda4Ever',
+                      'expiryDateEnabled' => 1,
+                      'enabled' => 1,
+                      'name' => 'paul',
+                      'enablePassword' => 'Linda4Ever',
+                      'description' => 'Paul McCartney',
+                      'firstName' => 'Paul'
+                    }
+        };
+
+[Thu Mar 23 00:10:53 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Thu Mar 23 00:10:53 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Thu Mar 23 00:10:53 2017] [debug] 200 OK (0.001824s, 548.246/s)
+[Thu Mar 23 00:10:53 2017] [debug] GET "/ers/config/internaluser/2"
+[Thu Mar 23 00:10:53 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:10:53 2017] [debug] $VAR1 = \{
+            'passwordIDStore' => 'Internal',
+            'changePassword' => 0,
+            'id' => 2,
+            'email' => 'paul@beatl.es',
+            'lastName' => 'McCartney',
+            'expiryDate' => '31-Jan-2019',
+            'identityGroups' => '4',
+            'password' => 'Linda4Ever',
+            'expiryDateEnabled' => 1,
+            'name' => 'paul',
+            'enabled' => 1,
+            'enablePassword' => 'Linda4Ever',
+            'description' => 'Paul McCartney',
+            'firstName' => 'Paul'
+          };
+
+[Thu Mar 23 00:10:53 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:10:53 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:10:53 2017] [debug] 200 OK (0.001987s, 503.271/s)
+[Thu Mar 23 00:11:28 2017] [debug] GET "/ers/config/internaluser/"
+[Thu Mar 23 00:11:28 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:11:28 2017] [debug] $VAR1 = {
+          'george' => {
+                        'name' => 'george',
+                        'enabled' => 1,
+                        'firstName' => 'George',
+                        'description' => 'George Harrison',
+                        'enablePassword' => 'Pattie4Ever',
+                        'lastName' => 'Harrison',
+                        'expiryDate' => '31-Jan-2019',
+                        'email' => 'george@beatl.es',
+                        'passwordIDStore' => 'Internal',
+                        'changePassword' => 0,
+                        'id' => 3,
+                        'expiryDateEnabled' => 1,
+                        'identityGroups' => '4',
+                        'password' => 'Pattie4Ever'
+                      },
+          'ringo' => {
+                       'firstName' => 'Ringo',
+                       'enablePassword' => 'Barbara4Ever',
+                       'description' => 'Ringo Starr',
+                       'enabled' => 1,
+                       'name' => 'ringo',
+                       'expiryDateEnabled' => 1,
+                       'password' => 'Barbara4Ever',
+                       'identityGroups' => '4',
+                       'expiryDate' => '31-Jan-2019',
+                       'lastName' => 'Starr',
+                       'passwordIDStore' => 'Internal',
+                       'id' => 4,
+                       'changePassword' => 0,
+                       'email' => 'ringo@beatl.es'
+                     },
+          'paul' => {
+                      'firstName' => 'Paul',
+                      'description' => 'Paul McCartney',
+                      'enablePassword' => 'Linda4Ever',
+                      'name' => 'paul',
+                      'enabled' => 1,
+                      'expiryDateEnabled' => 1,
+                      'identityGroups' => '4',
+                      'password' => 'Linda4Ever',
+                      'lastName' => 'McCartney',
+                      'expiryDate' => '31-Jan-2019',
+                      'email' => 'paul@beatl.es',
+                      'passwordIDStore' => 'Internal',
+                      'id' => 2,
+                      'changePassword' => 0
+                    }
+        };
+
+[Thu Mar 23 00:11:28 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Thu Mar 23 00:11:28 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Thu Mar 23 00:11:28 2017] [debug] 200 OK (0.00198s, 505.051/s)
+[Thu Mar 23 00:11:28 2017] [debug] GET "/ers/config/internaluser/2"
+[Thu Mar 23 00:11:28 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:11:28 2017] [debug] $VAR1 = \{
+            'name' => 'paul',
+            'enabled' => 1,
+            'enablePassword' => 'Linda4Ever',
+            'description' => 'Paul McCartney',
+            'firstName' => 'Paul',
+            'passwordIDStore' => 'Internal',
+            'id' => 2,
+            'changePassword' => 0,
+            'email' => 'paul@beatl.es',
+            'lastName' => 'McCartney',
+            'expiryDate' => '31-Jan-2019',
+            'identityGroups' => '4',
+            'password' => 'Linda4Ever',
+            'expiryDateEnabled' => 1
+          };
+
+[Thu Mar 23 00:11:28 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:11:28 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:11:28 2017] [debug] 200 OK (0.001915s, 522.193/s)
+[Thu Mar 23 00:11:50 2017] [debug] GET "/ers/config/internaluser/"
+[Thu Mar 23 00:11:50 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:11:50 2017] [debug] $VAR1 = {
+          'george' => {
+                        'enablePassword' => 'Pattie4Ever',
+                        'description' => 'George Harrison',
+                        'firstName' => 'George',
+                        'enabled' => 1,
+                        'name' => 'george',
+                        'password' => 'Pattie4Ever',
+                        'identityGroups' => '4',
+                        'expiryDateEnabled' => 1,
+                        'email' => 'george@beatl.es',
+                        'passwordIDStore' => 'Internal',
+                        'id' => 3,
+                        'changePassword' => 0,
+                        'expiryDate' => '31-Jan-2019',
+                        'lastName' => 'Harrison'
+                      },
+          'ringo' => {
+                       'firstName' => 'Ringo',
+                       'description' => 'Ringo Starr',
+                       'enablePassword' => 'Barbara4Ever',
+                       'name' => 'ringo',
+                       'enabled' => 1,
+                       'expiryDateEnabled' => 1,
+                       'identityGroups' => '4',
+                       'password' => 'Barbara4Ever',
+                       'expiryDate' => '31-Jan-2019',
+                       'lastName' => 'Starr',
+                       'changePassword' => 0,
+                       'passwordIDStore' => 'Internal',
+                       'email' => 'ringo@beatl.es',
+                       'id' => 4
+                     },
+          'paul' => {
+                      'name' => 'paul',
+                      'enabled' => 1,
+                      'description' => 'Paul McCartney',
+                      'enablePassword' => 'Linda4Ever',
+                      'firstName' => 'Paul',
+                      'email' => 'paul@beatl.es',
+                      'passwordIDStore' => 'Internal',
+                      'id' => 2,
+                      'changePassword' => 0,
+                      'lastName' => 'McCartney',
+                      'expiryDate' => '31-Jan-2019',
+                      'identityGroups' => '4',
+                      'password' => 'Linda4Ever',
+                      'expiryDateEnabled' => 1
+                    }
+        };
+
+[Thu Mar 23 00:11:50 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Thu Mar 23 00:11:50 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Thu Mar 23 00:11:50 2017] [debug] 200 OK (0.001906s, 524.659/s)
+[Thu Mar 23 00:11:50 2017] [debug] GET "/ers/config/internaluser/2"
+[Thu Mar 23 00:11:50 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:11:50 2017] [debug] $VAR1 = \{
+            'name' => 'paul',
+            'enabled' => 1,
+            'description' => 'Paul McCartney',
+            'enablePassword' => 'Linda4Ever',
+            'firstName' => 'Paul',
+            'id' => 2,
+            'passwordIDStore' => 'Internal',
+            'changePassword' => 0,
+            'email' => 'paul@beatl.es',
+            'expiryDate' => '31-Jan-2019',
+            'lastName' => 'McCartney',
+            'password' => 'Linda4Ever',
+            'identityGroups' => '4',
+            'expiryDateEnabled' => 1
+          };
+
+[Thu Mar 23 00:11:50 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:11:50 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:11:50 2017] [debug] 200 OK (0.001916s, 521.921/s)
+[Thu Mar 23 00:13:16 2017] [debug] GET "/ers/config/internaluser/"
+[Thu Mar 23 00:13:16 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:13:16 2017] [debug] $VAR1 = {
+          'paul' => {
+                      'lastName' => 'McCartney',
+                      'expiryDate' => '31-Jan-2019',
+                      'passwordIDStore' => 'Internal',
+                      'changePassword' => 0,
+                      'id' => 2,
+                      'email' => 'paul@beatl.es',
+                      'expiryDateEnabled' => 1,
+                      'identityGroups' => '4',
+                      'password' => 'Linda4Ever',
+                      'name' => 'paul',
+                      'enabled' => 1,
+                      'firstName' => 'Paul',
+                      'description' => 'Paul McCartney',
+                      'enablePassword' => 'Linda4Ever'
+                    },
+          'ringo' => {
+                       'expiryDateEnabled' => 1,
+                       'password' => 'Barbara4Ever',
+                       'identityGroups' => '4',
+                       'lastName' => 'Starr',
+                       'expiryDate' => '31-Jan-2019',
+                       'id' => 4,
+                       'passwordIDStore' => 'Internal',
+                       'email' => 'ringo@beatl.es',
+                       'changePassword' => 0,
+                       'firstName' => 'Ringo',
+                       'description' => 'Ringo Starr',
+                       'enablePassword' => 'Barbara4Ever',
+                       'name' => 'ringo',
+                       'enabled' => 1
+                     },
+          'george' => {
+                        'enablePassword' => 'Pattie4Ever',
+                        'description' => 'George Harrison',
+                        'firstName' => 'George',
+                        'name' => 'george',
+                        'enabled' => 1,
+                        'identityGroups' => '4',
+                        'password' => 'Pattie4Ever',
+                        'expiryDateEnabled' => 1,
+                        'passwordIDStore' => 'Internal',
+                        'email' => 'george@beatl.es',
+                        'id' => 3,
+                        'changePassword' => 0,
+                        'expiryDate' => '31-Jan-2019',
+                        'lastName' => 'Harrison'
+                      }
+        };
+
+[Thu Mar 23 00:13:16 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Thu Mar 23 00:13:16 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Thu Mar 23 00:13:16 2017] [debug] 200 OK (0.001883s, 531.067/s)
+[Thu Mar 23 00:13:16 2017] [debug] GET "/ers/config/internaluser/2"
+[Thu Mar 23 00:13:16 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:13:16 2017] [debug] $VAR1 = \{
+            'password' => 'Linda4Ever',
+            'identityGroups' => '4',
+            'expiryDateEnabled' => 1,
+            'email' => 'paul@beatl.es',
+            'passwordIDStore' => 'Internal',
+            'id' => 2,
+            'changePassword' => 0,
+            'expiryDate' => '31-Jan-2019',
+            'lastName' => 'McCartney',
+            'enablePassword' => 'Linda4Ever',
+            'description' => 'Paul McCartney',
+            'firstName' => 'Paul',
+            'enabled' => 1,
+            'name' => 'paul'
+          };
+
+[Thu Mar 23 00:13:16 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:13:16 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:13:16 2017] [debug] 200 OK (0.001881s, 531.632/s)
+[Thu Mar 23 00:13:33 2017] [debug] GET "/ers/config/internaluser/"
+[Thu Mar 23 00:13:33 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:13:33 2017] [debug] $VAR1 = {
+          'paul' => {
+                      'name' => 'paul',
+                      'enabled' => 1,
+                      'description' => 'Paul McCartney',
+                      'enablePassword' => 'Linda4Ever',
+                      'firstName' => 'Paul',
+                      'id' => 2,
+                      'passwordIDStore' => 'Internal',
+                      'email' => 'paul@beatl.es',
+                      'changePassword' => 0,
+                      'lastName' => 'McCartney',
+                      'expiryDate' => '31-Jan-2019',
+                      'identityGroups' => '4',
+                      'password' => 'Linda4Ever',
+                      'expiryDateEnabled' => 1
+                    },
+          'ringo' => {
+                       'expiryDate' => '31-Jan-2019',
+                       'lastName' => 'Starr',
+                       'passwordIDStore' => 'Internal',
+                       'email' => 'ringo@beatl.es',
+                       'changePassword' => 0,
+                       'id' => 4,
+                       'expiryDateEnabled' => 1,
+                       'password' => 'Barbara4Ever',
+                       'identityGroups' => '4',
+                       'enabled' => 1,
+                       'name' => 'ringo',
+                       'firstName' => 'Ringo',
+                       'description' => 'Ringo Starr',
+                       'enablePassword' => 'Barbara4Ever'
+                     },
+          'george' => {
+                        'name' => 'george',
+                        'enabled' => 1,
+                        'firstName' => 'George',
+                        'enablePassword' => 'Pattie4Ever',
+                        'description' => 'George Harrison',
+                        'expiryDate' => '31-Jan-2019',
+                        'lastName' => 'Harrison',
+                        'passwordIDStore' => 'Internal',
+                        'id' => 3,
+                        'email' => 'george@beatl.es',
+                        'changePassword' => 0,
+                        'expiryDateEnabled' => 1,
+                        'identityGroups' => '4',
+                        'password' => 'Pattie4Ever'
+                      }
+        };
+
+[Thu Mar 23 00:13:33 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Thu Mar 23 00:13:33 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Thu Mar 23 00:13:33 2017] [debug] 200 OK (0.001854s, 539.374/s)
+[Thu Mar 23 00:13:33 2017] [debug] GET "/ers/config/internaluser/2"
+[Thu Mar 23 00:13:33 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:13:33 2017] [debug] $VAR1 = \{
+            'identityGroups' => '4',
+            'password' => 'Linda4Ever',
+            'expiryDateEnabled' => 1,
+            'changePassword' => 0,
+            'passwordIDStore' => 'Internal',
+            'email' => 'paul@beatl.es',
+            'id' => 2,
+            'expiryDate' => '31-Jan-2019',
+            'lastName' => 'McCartney',
+            'enablePassword' => 'Linda4Ever',
+            'description' => 'Paul McCartney',
+            'firstName' => 'Paul',
+            'enabled' => 1,
+            'name' => 'paul'
+          };
+
+[Thu Mar 23 00:13:33 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:13:33 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:13:33 2017] [debug] 200 OK (0.001918s, 521.376/s)
+[Thu Mar 23 00:13:48 2017] [debug] GET "/ers/config/internaluser/"
+[Thu Mar 23 00:13:48 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:13:48 2017] [debug] $VAR1 = {
+          'ringo' => {
+                       'expiryDateEnabled' => 1,
+                       'password' => 'Barbara4Ever',
+                       'identityGroups' => '4',
+                       'expiryDate' => '31-Jan-2019',
+                       'lastName' => 'Starr',
+                       'id' => 4,
+                       'passwordIDStore' => 'Internal',
+                       'email' => 'ringo@beatl.es',
+                       'changePassword' => 0,
+                       'firstName' => 'Ringo',
+                       'enablePassword' => 'Barbara4Ever',
+                       'description' => 'Ringo Starr',
+                       'name' => 'ringo',
+                       'enabled' => 1
+                     },
+          'george' => {
+                        'firstName' => 'George',
+                        'enablePassword' => 'Pattie4Ever',
+                        'description' => 'George Harrison',
+                        'enabled' => 1,
+                        'name' => 'george',
+                        'expiryDateEnabled' => 1,
+                        'identityGroups' => '4',
+                        'password' => 'Pattie4Ever',
+                        'lastName' => 'Harrison',
+                        'expiryDate' => '31-Jan-2019',
+                        'passwordIDStore' => 'Internal',
+                        'email' => 'george@beatl.es',
+                        'id' => 3,
+                        'changePassword' => 0
+                      },
+          'paul' => {
+                      'name' => 'paul',
+                      'enabled' => 1,
+                      'description' => 'Paul McCartney',
+                      'enablePassword' => 'Linda4Ever',
+                      'firstName' => 'Paul',
+                      'email' => 'paul@beatl.es',
+                      'passwordIDStore' => 'Internal',
+                      'id' => 2,
+                      'changePassword' => 0,
+                      'lastName' => 'McCartney',
+                      'expiryDate' => '31-Jan-2019',
+                      'password' => 'Linda4Ever',
+                      'identityGroups' => '4',
+                      'expiryDateEnabled' => 1
+                    }
+        };
+
+[Thu Mar 23 00:13:48 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Thu Mar 23 00:13:48 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Thu Mar 23 00:13:48 2017] [debug] 200 OK (0.001872s, 534.188/s)
+[Thu Mar 23 00:13:48 2017] [debug] GET "/ers/config/internaluser/4"
+[Thu Mar 23 00:13:48 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:13:48 2017] [debug] $VAR1 = \{
+            'enabled' => 1,
+            'name' => 'ringo',
+            'description' => 'Ringo Starr',
+            'enablePassword' => 'Barbara4Ever',
+            'firstName' => 'Ringo',
+            'email' => 'ringo@beatl.es',
+            'passwordIDStore' => 'Internal',
+            'changePassword' => 0,
+            'id' => 4,
+            'expiryDate' => '31-Jan-2019',
+            'lastName' => 'Starr',
+            'identityGroups' => '4',
+            'password' => 'Barbara4Ever',
+            'expiryDateEnabled' => 1
+          };
+
+[Thu Mar 23 00:13:48 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:13:48 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:13:48 2017] [debug] 200 OK (0.001988s, 503.018/s)
+[Thu Mar 23 00:14:16 2017] [debug] GET "/ers/config/internaluser/"
+[Thu Mar 23 00:14:16 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:14:16 2017] [debug] $VAR1 = {
+          'paul' => {
+                      'description' => 'Paul McCartney',
+                      'enablePassword' => 'Linda4Ever',
+                      'firstName' => 'Paul',
+                      'enabled' => 1,
+                      'name' => 'paul',
+                      'password' => 'Linda4Ever',
+                      'identityGroups' => '4',
+                      'expiryDateEnabled' => 1,
+                      'passwordIDStore' => 'Internal',
+                      'email' => 'paul@beatl.es',
+                      'changePassword' => 0,
+                      'id' => 2,
+                      'expiryDate' => '31-Jan-2019',
+                      'lastName' => 'McCartney'
+                    },
+          'ringo' => {
+                       'enabled' => 1,
+                       'name' => 'ringo',
+                       'enablePassword' => 'Barbara4Ever',
+                       'description' => 'Ringo Starr',
+                       'firstName' => 'Ringo',
+                       'passwordIDStore' => 'Internal',
+                       'id' => 4,
+                       'changePassword' => 0,
+                       'email' => 'ringo@beatl.es',
+                       'expiryDate' => '31-Jan-2019',
+                       'lastName' => 'Starr',
+                       'password' => 'Barbara4Ever',
+                       'identityGroups' => '4',
+                       'expiryDateEnabled' => 1
+                     },
+          'george' => {
+                        'expiryDate' => '31-Jan-2019',
+                        'lastName' => 'Harrison',
+                        'passwordIDStore' => 'Internal',
+                        'email' => 'george@beatl.es',
+                        'changePassword' => 0,
+                        'id' => 3,
+                        'expiryDateEnabled' => 1,
+                        'password' => 'Pattie4Ever',
+                        'identityGroups' => '4',
+                        'enabled' => 1,
+                        'name' => 'george',
+                        'firstName' => 'George',
+                        'description' => 'George Harrison',
+                        'enablePassword' => 'Pattie4Ever'
+                      }
+        };
+
+[Thu Mar 23 00:14:16 2017] [debug] Rendering cached template "internaluser/queryall.xml.ep"
+[Thu Mar 23 00:14:16 2017] [debug] Rendering cached template "layouts/internaluserall.xml.ep"
+[Thu Mar 23 00:14:16 2017] [debug] 200 OK (0.001829s, 546.747/s)
+[Thu Mar 23 00:14:16 2017] [debug] GET "/ers/config/internaluser/4"
+[Thu Mar 23 00:14:16 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:14:16 2017] [debug] $VAR1 = \{
+            'description' => 'Ringo Starr',
+            'enablePassword' => 'Barbara4Ever',
+            'firstName' => 'Ringo',
+            'name' => 'ringo',
+            'enabled' => 1,
+            'identityGroups' => '4',
+            'password' => 'Barbara4Ever',
+            'expiryDateEnabled' => 1,
+            'passwordIDStore' => 'Internal',
+            'changePassword' => 0,
+            'email' => 'ringo@beatl.es',
+            'id' => 4,
+            'expiryDate' => '31-Jan-2019',
+            'lastName' => 'Starr'
+          };
+
+[Thu Mar 23 00:14:16 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:14:16 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:14:16 2017] [debug] 200 OK (0.001786s, 559.910/s)
+[Thu Mar 23 00:14:16 2017] [debug] GET "/ers/config/internaluser/3"
+[Thu Mar 23 00:14:16 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:14:16 2017] [debug] $VAR1 = \{
+            'enablePassword' => 'Pattie4Ever',
+            'description' => 'George Harrison',
+            'firstName' => 'George',
+            'enabled' => 1,
+            'name' => 'george',
+            'identityGroups' => '4',
+            'password' => 'Pattie4Ever',
+            'expiryDateEnabled' => 1,
+            'email' => 'george@beatl.es',
+            'passwordIDStore' => 'Internal',
+            'id' => 3,
+            'changePassword' => 0,
+            'lastName' => 'Harrison',
+            'expiryDate' => '31-Jan-2019'
+          };
+
+[Thu Mar 23 00:14:16 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:14:16 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:14:16 2017] [debug] 200 OK (0.001537s, 650.618/s)
+[Thu Mar 23 00:14:16 2017] [debug] GET "/ers/config/internaluser/2"
+[Thu Mar 23 00:14:16 2017] [debug] Routing to controller "Net::Cisco::ISE::Mock::Controller::InternalUser" and action "query"
+[Thu Mar 23 00:14:16 2017] [debug] $VAR1 = \{
+            'name' => 'paul',
+            'enabled' => 1,
+            'firstName' => 'Paul',
+            'enablePassword' => 'Linda4Ever',
+            'description' => 'Paul McCartney',
+            'lastName' => 'McCartney',
+            'expiryDate' => '31-Jan-2019',
+            'id' => 2,
+            'passwordIDStore' => 'Internal',
+            'email' => 'paul@beatl.es',
+            'changePassword' => 0,
+            'expiryDateEnabled' => 1,
+            'identityGroups' => '4',
+            'password' => 'Linda4Ever'
+          };
+
+[Thu Mar 23 00:14:16 2017] [debug] Rendering cached template "internaluser/query.xml.ep"
+[Thu Mar 23 00:14:16 2017] [debug] Rendering cached template "layouts/internaluser.xml.ep"
+[Thu Mar 23 00:14:16 2017] [debug] 200 OK (0.001393s, 717.875/s)

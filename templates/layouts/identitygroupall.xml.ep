@@ -1,2 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:identityGroups xmlns:ns2="identity.rest.mgmt.acs.nm.cisco.com">
-<%= content %></ns2:identityGroups>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:searchResult total="2" xmlns:ns5="ers.ise.cisco.com" xmlns:ers-v2="ers-v2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="v2.ers.ise.cisco.com">
+    <ns3:nextPage rel="next" href="link-to-next-page" type="application/xml"/>
+    <ns3:previousPage rel="previous" href="link-to-previous-page" type="application/xml"/>
+    <resources>
+<%= content %><resources>
+</ns3:searchResult>

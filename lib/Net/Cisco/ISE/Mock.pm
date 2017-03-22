@@ -3,6 +3,8 @@ use Mojo::Base 'Mojolicious';
 use Net::Cisco::ISE::Mock::Schema;
 use Mojo::Log;
 
+# morbo script/net_cisco_isemock daemon -l http://[::]:3001
+
 # This method will run once at server start
 sub startup {
   my $self = shift;
@@ -15,7 +17,10 @@ sub startup {
 
   $r->get("/ers/config/internaluser/")->to('InternalUser#query');
   $r->get("/ers/config/internaluser/:id")->to('InternalUser#query');
-  
+
+  $r->get("/ers/config/identitygroup/")->to('IdentityGroup#query');  
+  $r->get("/ers/config/identitygroup/:id")->to('IdentityGroup#query');  
+
   #$r->get("/Rest/Identity/User/name/:name")->to('User#query');  
   
   #$r->get('/Rest/Identity/User/id/:id')->to('User#query');  

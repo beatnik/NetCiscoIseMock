@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns4:internaluser description="description" id="id" name="name" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
-    <changePassword>true</changePassword>
+<ns4:internaluser description="<%= $internaluser->{description} %>" id="<%= $internaluser->{id} %>" name="<%= $internaluser->{name} %>" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
+    <changePassword><%= $internaluser->{changepassword} %></changePassword>
     <customAttributes>
         <entry>
             <key>key1</key>
@@ -11,14 +10,14 @@
             <value>value3</value>
         </entry>
     </customAttributes>
-    <email>email@domain.com</email>
-    <enablePassword>enablePassword</enablePassword>
-    <enabled>true</enabled>
-    <expiryDate>2016-12-11</expiryDate>
-    <expiryDateEnabled>false</expiryDateEnabled>
-    <firstName>firstName</firstName>
-    <identityGroups>identityGroups</identityGroups>
-    <lastName>lastName</lastName>
-    <password>password</password>
-    <passwordIDStore>Internal Users</passwordIDStore>
+    <email><%= $internaluser->{email} %></email>
+    <enablePassword><%= $internaluser->{enablepassword} %></enablePassword>
+    <enabled><%= $internaluser->{enabled} %></enabled>
+    <expiryDate><%= $internaluser->{expirydate} %></expiryDate>
+    <expiryDateEnabled><%= $internaluser->{expirydateenabled} %></expiryDateEnabled>
+    <firstName><%= $internaluser->{firstname} %></firstName>
+    <identityGroups><%= $internaluser->{identitygroups} %></identityGroups>
+    <lastName><%= $internaluser->{lastname} %></lastName>
+    <password><%= $internaluser->{password} %></password>
+    <passwordIDStore><%= $internaluser->{passwordidstore} %></passwordIDStore>
 </ns4:internaluser>

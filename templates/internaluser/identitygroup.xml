@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-2.<ns4:identitygroup description="description" id="id" name="name" xmlns:ers="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns4="identity.ers.ise.cisco.com">
-3.    <parent>parent</parent>
-4.</ns4:identitygroup>

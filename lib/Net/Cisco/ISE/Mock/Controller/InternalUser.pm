@@ -5,52 +5,37 @@ use XML::Simple;
 
 sub query {
     my $self = shift;
-	my $name = $self->param("name");
 	my $id = $self->param("id");
-=pod
-    my $rs = $self->db->resultset('User');
-    my $user;
-	if ($name) 
-	{ my $query_rs = $rs->search({ name => $name });
-      $user = $query_rs->first;
-    }
+    my $rs = $self->db->resultset('Internaluser');
+    my $internaluser;
 	if ($id) 
 	{ my $query_rs = $rs->search({ id => $id });
-      $user = $query_rs->first;
-    }
-=cut
-    if (!$id && !$name)
-    {
-=pod
-my $query_rs = $rs->search;
-      my %users = ();
-      while (my $account = $query_rs->next)
-      { $users{$account->name} =
-        { id => $account->id, name => $account->name, description => $account->description,
-          identitygroupname => $account->identitygroupname, changepassword => $account->changepassword,
-          enablepassword => $account->enablepassword, enabled => $account->enabled, password => $account->password,
-          passwordneverexpires => $account->passwordneverexpires, passwordtype => $account->passwordtype,
-          dateexceeds => $account->dateexceeds, dateexceedsenabled =>$account->dateexceedsenabled,
-          created => $account->created, lastmodified => $account->lastmodified
+      my $account = $query_rs->first;
+      $internaluser =
+        { id => $account->id, name => $account->name, email => $account->email, firstName => $account->firstname, lastName => $account->lastname, identityGroups  => $account->identitygroups,
+          changePassword => $account->changepassword, expiryDateEnabled => $account->expirydateenabled, expiryDate => $account->expirydate,
+          enablePassword => $account->enablepassword, enabled => $account->enabled, password => $account->password, passwordIDStore => $account->passwordidstore,
+          description => $account->firstname." ".$account->lastname
         };
-        $users{$account->name}{"dateExceedsEnabled"} = $users{$account->name}{"dateExceedsEnabled"} && $users{$account->name}{"dateExceedsEnabled"} eq "true" ? 1 : 0;
-        $users{$account->name}{"enabled"} = $users{$account->name}{"enabled"} && $users{$account->name}{"enabled"} eq "true" ? 1 : 0;
-        $users{$account->name}{"passwordNeverExpires"} = $users{$account->name}{"passwordNeverExpires"} && $users{$account->name}{"passwordNeverExpires"} eq "true" ? 1 : 0;
-        $users{$account->name}{"created"} = $users{$account->name}{"created"} && $users{$account->name}{"created"}  ? $users{$account->name}{"created"} : "";
-        $users{$account->name}{"lastModified"} = $users{$account->name}{"lastModified"} && $users{$account->name}{"lastModified"}  ? $users{$account->name}{"lastModified"} : "";        
-        $users{$account->name}{"dateExceeds"} = ref($users{$account->name}{"dateExceeds"}) ? "" : $users{$account->name}{"dateExceeds"};
+        $internaluser->{"enablePassword"} = ref($internaluser->{"enablePassword"}) ? "" : $internaluser->{"enablePassword"};
+      $self->app->log->debug(Dumper \$internaluser);
+    } else
+    { my $query_rs = $rs->search;
+      my %internalusers = ();
+      while (my $account = $query_rs->next)
+      { $internalusers{$account->name} =
+        { id => $account->id, name => $account->name, email => $account->email, firstName => $account->firstname, lastName => $account->lastname, identityGroups  => $account->identitygroups,
+          changePassword => $account->changepassword, expiryDateEnabled => $account->expirydateenabled, expiryDate => $account->expirydate,
+          enablePassword => $account->enablepassword, enabled => $account->enabled, password => $account->password, passwordIDStore => $account->passwordidstore,
+          description => $account->firstname." ".$account->lastname
+        };
+        $internalusers{$account->name}{"enablePassword"} = ref($internalusers{$account->name}{"enablePassword"}) ? "" : $internalusers{$account->name}{"enablePassword"};
       }
-=cut
-      my %internalusers = ("John" => { "description" => "The Smart One", "name" => "John Lennon", "id" => "john"},
-                           "Paul" => { "description" => "The Cute One", "name" => "Paul McCartney", "id" => "paul"},
-                           "George" => { "description" => "The Quiet One", "name" => "George Harrison", "id" => "george"},
-                           "Ringo" => { "description" => "The Funny One", "name" => "Ringo Starr", "id" => "ringo"},
-                           );
+      $self->app->log->debug(Dumper \%internalusers);
       $self->stash("internalusers" => \%internalusers);
       $self->render(template => 'internaluser/queryall', format => 'xml', layout => 'internaluserall');
       return;
     }
-    my $internaluser = "";
     $self->stash("internaluser" => $internaluser);
 	$self->render(template => 'internaluser/query', format => 'xml', layout => 'internaluser');
 }

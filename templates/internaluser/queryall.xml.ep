@@ -1,3 +1,3 @@
 % foreach my $internaluser (sort keys %{$internalusers}) {                
- <ns5:resource description="<%= $internalusers->{$internaluser}->{description} %>" name="<%= $internalusers->{$internaluser}->{name} %>" id="<%= $internalusers->{$internaluser}->{id} %>"/>
+ <resource description="<%= $internalusers->{$internaluser}->{description} %>" name="<%= $internalusers->{$internaluser}->{name} %>" id="<%= $internalusers->{$internaluser}->{id} %>"/>
 % }
